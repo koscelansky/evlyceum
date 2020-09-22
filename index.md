@@ -4,6 +4,7 @@
 
 ### Seminár 1 (SEN1)
 
+* [Hodnotenie](./2020/sen1/grading.md)
 * [Príprava prostredia](./2020/sen1/1-setup.md)
 
 ### Seminár 2 (SEN2)
