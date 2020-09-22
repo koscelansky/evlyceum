@@ -38,3 +38,7 @@ Pre zadané dve čísla vypočítajte ich najväčší spoločný násobok. Mô�
 ### Palindrom
 
 Pre zadaný string chceme zistiť či je palindrom, teda či sa odpredu aj odzadu píše rovnako.
+
+### Okno s tlačítkom
+
+Vytvorte oknovú aplikáciu, v ktorej umiestnite jedno tlačítko a po jeho kliknutí sa na náhodnom mieste objaví štvorec. 
