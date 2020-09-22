@@ -8,6 +8,7 @@ V priebehu polroku budeme hlavne programovať. Spolu vás čaká najmenej 15 akt
   * úlohy sa odovzdávajú na môj mail do určeného dátumu
   * odovzdanie do 24 hodín po deadline = maximálne 50% bodov, odovzdanie neskôr ako 24 hodín po deadline = 0 bodov
   * maximálny počet bodov **12×3**
+  * úlohy vypracuvávajte samostatne
 2. dvakrát praktické skúšanie
   * z programovania
   * 1-2 praktické úlohy (niečo naprogramovať)
@@ -17,8 +18,6 @@ V priebehu polroku budeme hlavne programovať. Spolu vás čaká najmenej 15 akt
 Okrem toho môžete získať i extra body za bonusové domáce úlohy (maximálny počet bodov podľa ponuky).
 
 Spolu teda môžete získať **36** (úlohy) + **18** + **18** = **72** bodov.
-
-***Za pokusy o plagiátorstvo (aj čiastočné) bude za úlohu udelených automaticky 0 bodov pre VŠETKÝCH AKTÉROV plagiátorstva (aj kto odpísal, aj kto dal odpísať).***
 
 ### Stupnica
 
