@@ -1,6 +1,6 @@
 ## Hodnotenie
 
-V priebehu polroku budeme hlavne programovať. Spolu vás čaká najmenej 14 aktivít, a to:
+V priebehu polroku budeme programovať. Spolu vás čaká najmenej 14 aktivít, a to:
 
 1. dvanásť ohodnotených domácich úloh
   * takmer každý týždeň bude zadaná úloha za 3 body

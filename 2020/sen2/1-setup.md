@@ -19,17 +19,17 @@ Ak ste všetko správne nainštalovali, tak funkčnosť si overíme jednoduhým 
 
 ## Kde sa nachádzame?
 
-### Párne/neprárne?
+### Hello worlds!
 
-Vytvorte program, ktorý prečíta zo vstupu číslo a vypíše informáciu o tom, či je párne, alebo nepárne. 
-
-### Utriedené čísla
-
-Vytvorte program, ktorý na vstupe prečíta 3 čísla a potom ich vypíše od najväčšieho po najmenšie. 
+Naprogramujte program, ktorý na vstupe dostane celé číslo n a potom vypíše za seba n krát Hello world!. Teda pre vstup 3 bude výsledok *Hello world!Hello world!Hello world!*.
 
 ### Sum of squares
 
 Vytvorte program, ktorý dostane na vstupe číslo `n` a na výstup vypíše súčet všetkých štvorcov po `n`. Teda `1*1 + 2*2 + ... (n-1)*(n-1) + n*n`. Napríklad pre `3` to bude `14` a pre `4` bude výsledok `30`.
+
+### Simple sort
+
+vytvorte program, ktorý načítava čísla zo vstupu. Skončí ak je zadaný prázdny vstup. Potom všetky čísla vypíše utriedené od najväčšieho po najmenšie. 
 
 ### GCD
 
