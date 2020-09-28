@@ -25,7 +25,29 @@ else:
   print('You are not Juraj!')
 ```
 
-Za `if` ide podmienka, takže napríklad číslené porovnanie (napríklad `x == 3`, `x != 3`, `x < 3`, `x >= 3`), alebo porovnanie reťazcov. A potom dvojbodka. Ďalšie odsadené (Python je veľmi striktný pri zarovnaní programu, riadky patracie pod `if` musia mať na začiatku tabulátor, alebo rovnako veľa medzier) riadky sú príkazy, ktoré s vykonajú ak je podmienka splnená. Potom nasleduje `else` s dvojbodkou (pozor to už má rovnaké zarovnanie ako `if`) a znovu odsadené príkazy, ktoré sa vykonajú ak je podmienka nesplnená. 
+Za `if` ide podmienka, takže napríklad číslené porovnanie (napríklad `x == 3`, `x != 3`, `x < 3`, `x >= 3`), alebo porovnanie reťazcov. A potom dvojbodka. Ďalšie odsadené (Python je veľmi striktný pri zarovnaní programu, riadky patracie pod `if` musia mať na začiatku tabulátor, alebo rovnako veľa medzier) riadky sú príkazy, ktoré s vykonajú ak je podmienka splnená. Potom nasleduje `else` s dvojbodkou (pozor to už má rovnaké zarovnanie ako `if`) a znovu odsadené príkazy, ktoré sa vykonajú ak je podmienka nesplnená.
+
+### Zložitejšie podmienky
+
+Logické výrazy sa môžu skladať s viacerých podmienok spojených bud pomocou `and` (a), alebo `or` (alebo). Nasledujúca podmienka je splnená ak `x` je väčšie rovné `0` a zároveň je menšie ako `10`. 
+
+```python
+if x >= 0 and x < 10:
+  print('x je v intervali [0-9]')
+else:
+  print('x nie je v intervali [0-9]')
+```
+
+Obdobne môžeme rovnaký program zapísať ako
+
+```python
+if x < 0 or x >= 10:
+  print('x nie je v intervali [0-9]')
+else:
+  print('x je v intervali [0-9]')
+```
+
+Tu sme vlastne podmienku otočili, ak `x` je menšie ako `0` alebo je väčšie rovné ako `10`, tak nemôže byť v intervali `[0-10]`.
 
 ### Úlohy
 
