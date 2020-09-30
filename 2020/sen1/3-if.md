@@ -71,7 +71,10 @@ Tu sme vlastne podmienku otočili, ak `x` je menšie ako `0` alebo je väčšie 
 
 ### Domáca úloha (3 body)
 
-7. Naprogramujte program, ktorý načíta dve čísla a vydelí ich. Ak sú súdeliteľné (teda ak zvyšok po delení je `0`), vypíše 
+Deadline utorková skupina 5. októbra 2020 23:59.
+Deadline stredajšia skupina 6. októbra 2020 23:59.
+
+1. Naprogramujte program, ktorý načíta dve čísla a vydelí ich. Ak sú súdeliteľné (teda ak zvyšok po delení je `0`), vypíše 
 
    cislo1 / cislo2 = vysledok
 
