@@ -25,15 +25,7 @@
    Mesiac 2 v roku 2020 ma 29 dni
    ```
 
-2. Napíšte program, ktorý dostane na vstup čísla `n`, `a`, `b` a vypíše na výstup všetky čísla **menšie** ako `n`, ktoré nie sú deliteľné ani číslom `a`, ani `b`.
-   ```
-   n=10
-   a=3
-   b=7
-   1 2 4 5 8 
-   ```
-
-3. Napíšte program, ktorý dostane na vstup číslo `n` a vypíše nasledovnú tabuľku. 
+2. Napíšte program, ktorý dostane na vstup číslo `n` a vypíše nasledovnú tabuľku. 
 
    ```
    1234...n
@@ -54,6 +46,20 @@
    4123
    ```
 
+3. Napíšte program, ktorý dostane na vstup číslo `n` a vypíše nasledovnú tabuľku. 
+
+   ```
+   *
+   **
+   ***
+   ****
+   ***
+   **
+   *
+   ```
+
+   Pričom najdlhší riadok má dĺžku `n`. Teda vyššie je uvedený výsledok pre `n == 4`. Pre `n == 1` bude výsledkom iba jedna `*`.
+
 4. Naprogramujte funkcie `def hex2bin(s):`, ktorá dostane na vstup string `s` číslom v šesťnáskovej sústave, toto číslo potom prevedie do binárnej a vypíše ho na konzolu.
 
    ```
@@ -69,16 +75,10 @@
 
 Deadline 6. októbra 2020 23:59.
 
-1. Napíšte program, ktorý dostane na vstup číslo `n` a vypíše nasledovnú tabuľku. 
-
+1. Napíšte program, ktorý dostane na vstup čísla `n`, `a`, `b` a vypíše na výstup všetky čísla **menšie** ako `n`, ktoré nie sú deliteľné ani číslom `a`, ani `b`.
    ```
-   *
-   **
-   ***
-   ****
-   ***
-   **
-   *
+   n=10
+   a=3
+   b=7
+   1 2 4 5 8 
    ```
-
-   Pričom najdlhší riadok má dĺžku `n`. Teda vyššie je uvedený výsledok pre `n == 4`. Pre `n == 1` bude výsledkom iba jedna `*`.
