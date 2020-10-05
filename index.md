@@ -8,6 +8,7 @@
 * [Príprava prostredia](./2020/sen1/1-setup.md)
 * [Opakovanie](./2020/sen1/2-recap.md)
 * [Podmienený príkaz (29. 9.)](./2020/sen1/3-if.md)
+* [Ďalšie použitie príkazu `if` (29. 9.)](./2020/sen1/4-if-adv.md)
 
 ### Seminár 2 (SEN2)
 

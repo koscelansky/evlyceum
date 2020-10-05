@@ -1,4 +1,4 @@
-## Podmienený príkaz `if`
+# Podmienený príkaz `if`
 
 Zatiaľ vieme, že program sa skladá z príkazov (angl. *statement*, v podstate ide o jeden riadok v Pythonovom programe), ktoré idú za sebou. To znamená, že interpreter Pythonu ich vykonáva jeden za druhým v poradí v akom sú zapísané. 
 
@@ -27,7 +27,7 @@ else:
 
 Za `if` ide podmienka, takže napríklad číslené porovnanie (napríklad `x == 3`, `x != 3`, `x < 3`, `x >= 3`), alebo porovnanie reťazcov. A potom dvojbodka. Ďalšie odsadené (Python je veľmi striktný pri zarovnaní programu, riadky patracie pod `if` musia mať na začiatku tabulátor, alebo rovnako veľa medzier) riadky sú príkazy, ktoré s vykonajú ak je podmienka splnená. Potom nasleduje `else` s dvojbodkou (pozor to už má rovnaké zarovnanie ako `if`) a znovu odsadené príkazy, ktoré sa vykonajú ak je podmienka nesplnená.
 
-### Zložitejšie podmienky
+## Zložitejšie podmienky
 
 Logické výrazy sa môžu skladať s viacerých podmienok spojených bud pomocou `and` (a), alebo `or` (alebo). Nasledujúca podmienka je splnená ak `x` je väčšie rovné `0` a zároveň je menšie ako `10`. 
 
@@ -49,7 +49,7 @@ else:
 
 Tu sme vlastne podmienku otočili, ak `x` je menšie ako `0` alebo je väčšie rovné ako `10`, tak nemôže byť v intervali `[0-10]`.
 
-### Úlohy
+## Úlohy
 
 1. Napíšte program, ktorý načíta dve čísla, ak je prvé menšie ako druhé, tak vypíše `mensie` inak vypíše `vacsie alebo rovne`. 
 
@@ -69,9 +69,10 @@ Tu sme vlastne podmienku otočili, ak `x` je menšie ako `0` alebo je väčšie 
    Mesiac 1 v roku 2021 ma 31 dni
    ```
 
-### Domáca úloha (3 body)
+## Domáca úloha (3 body)
 
 Deadline utorková skupina 5. októbra 2020 23:59.
+
 Deadline stredajšia skupina 6. októbra 2020 23:59.
 
 1. Naprogramujte program, ktorý načíta dve čísla a vydelí ich. Ak sú súdeliteľné (teda ak zvyšok po delení je `0`), vypíše 
