@@ -54,25 +54,25 @@ Naprogramujte dve funkcie.
    * Pre `n <= 0` nevypíše nič.
    * Pre `n == 1` vypíše
      ```plain
-     *
+     #
      ```
    * Pre `n == 2` vypíše
      ```plain
-     **
-     **
+     ##
+     ##
      ```
    * Pre `n == 3` vypíše
      ```plain
-     ***
-     * *
-     ***
+     ###
+     # #
+     ###
      ```
    * Pre `n == 4` vypíše
      ```plain
-     ****
-     *  *
-     *  *
-     ****
+     ####
+     #  #
+     #  #
+     ####
      ```
    A tak ďalej, vždy bude plná iba časť okolo a v strede budú medzery. 
 
