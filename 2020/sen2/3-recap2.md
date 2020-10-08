@@ -47,18 +47,38 @@
 
 Deadline 13. októbra 2020 23:59.
 
-1. Naprogramujte dve funkcie, jedna sa bude volať `def stvorec(n)`, ktorá dostane na vstupe číslo `n` a vykresli nasledujúci tvar.
-   ```
-   ****
-   *  *
-   *  *
-   ****
-   ```
-   Výsledok pre `n == 4`, pre `n == 1` sa vypiše iba `*` a pre `n <= 0` sa nevypiše nič. (2body)
+Naprogramujte dve funkcie.
 
-   Druhá sa bude volať `def ibaABC(s)`, dostane na vstupe string a vypíše áno, alebo nie podľa toho, či sú všetky znaky v `s` iba `A`, `B`, alebo `C`. Teda pre `ABBBAC` vypíše áno a pre `ABBBDC` vypiše nie. (1bod)
+1. Prvá sa bude volať `def stvorec(n):`, ktorá dostane na vstupe číslo `n` a vykresli nasledujúci tvar. (2body)
+   
+   * Pre `n <= 0` nevypíše nič.
+   * Pre `n == 1` vypíše
+     ```plain
+     *
+     ```
+   * Pre `n == 2` vypíše
+     ```plain
+     **
+     **
+     ```
+   * Pre `n == 3` vypíše
+     ```plain
+     ***
+     * *
+     ***
+     ```
+   * Pre `n == 4` vypíše
+     ```plain
+     ****
+     *  *
+     *  *
+     ****
+     ```
+   A tak ďalej, vždy bude plná iba časť okolo a v strede budú medzery. 
 
-2. Bonus za jeden bod. Naprogramujte funkciu `def sachovnica(n):`, ktorá vykreslí nasledovný útvar
+2. Druhá sa bude volať `def ibaABC(s)`, dostane na vstupe string a vypíše `áno`, alebo `nie` podľa toho, či sú všetky znaky v `s` iba `A`, `B`, alebo `C`. Teda pre `ABBBAC` vypíše `áno` a pre `ABBBDC` vypiše `nie`. (1bod)
+
+Bonus za jeden bod. Naprogramujte funkciu `def sachovnica(n):`, ktorá vykreslí nasledovný útvar
    ```
    n == 1
 
