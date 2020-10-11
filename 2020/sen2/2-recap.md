@@ -1,4 +1,4 @@
-##  Opakovanie
+# Opakovanie
 
 * [Výpisy na konzolu a načítanie vstupu z konzoly](../sen1/2-recap.md).
 * Základné typy v Pythone `int`, `float` a `str`.
@@ -11,7 +11,7 @@
 * Práca s reťazcami.
 * Práca s poliami (listami).
 
-### Úlohy
+## Úlohy
 
 1. Napíšte program, ktorý prečíta mesiac (číslom) a rok a vypíše počet dní v danom mesiaci. Zohľadnice priestupné roky, rok je priestupný ak je deliteľný 4, no ak je deliteľný 100, tak musí byť aj 400. Teda rok 2000 bol, ale 1900 nebol a ani 2100 nebude. 
 
@@ -71,7 +71,7 @@
 
 6. Naprogramujte Eratostenovo sito.
 
-### Domáca úloha (3 body)
+## Domáca úloha (3 body)
 
 Deadline 6. októbra 2020 23:59.
 
