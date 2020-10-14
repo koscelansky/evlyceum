@@ -1,4 +1,4 @@
-# Opakovanie
+# Opakovanie (1/3)
 
 * [Výpisy na konzolu a načítanie vstupu z konzoly](../sen1/2-recap.md).
 * Základné typy v Pythone `int`, `float` a `str`.

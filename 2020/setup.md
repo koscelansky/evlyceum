@@ -15,4 +15,6 @@ Ak ste všetko správne nainštalovali, tak funkčnosť si overíme jednoduhým 
 
 ## Live share
 
-Keďže teraz musíme fungovať aj v dištančnom režime. Tak budeme spolu kolaborovať pomocou nástroja Live share vo Visual Studio Code. Nato si treba nainštalovať [rozšírenie](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare).
+Keďže teraz musíme fungovať aj v dištančnom režime. Tak budeme spolu kolaborovať pomocou nástroja Live share vo Visual Studio Code. Nato si treba nainštalovať [rozšírenie](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare). Ďalej na to potrebujete buď Microsoft účet, alebo guthub účet. Ak ešte nemáte žiadny, tak odporúčam [github](https://github.com/join). Tu sa zaregistrujete.
+
+Potom keď vám pošlem linku na Live share, tak na ňu kliknite, presmeruje vás to na github a tu zadáte svoje meno heslo. Potom vás to už prihlási a budeme vidieť rovnaké zdrojáky. s

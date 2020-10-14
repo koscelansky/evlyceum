@@ -16,5 +16,6 @@
 
 * [Hodnotenie](./2020/sen2/grading.md)
 * [Príprava prostredia](./2020/sen2/1-setup.md)
-* [Opakovanie (1. 10.)](./2020/sen2/2-recap.md)
-* [Opakovanie pokračovanie (8. 10.)](./2020/sen2/3-recap2.md)
+* [Opakovanie 1/3 (1. 10.)](./2020/sen2/2-recap.md)
+* [Opakovanie 2/3 (8. 10.)](./2020/sen2/3-recap2.md)
+* [Opakovanie 3/3 (15. 10.)](./2020/sen2/4-recap3.md)
