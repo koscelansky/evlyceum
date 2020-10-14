@@ -1,6 +1,7 @@
 ## Výučba na Evanjelickom Lýceu 2020/2021
 
 * [Všeobecné informácie](./2020/common.md)
+* [Príprava prostredia](./2020/setup.md) *Live Share*
 
 ### Seminár 1 (SEN1)
 
