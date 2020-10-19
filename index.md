@@ -11,6 +11,7 @@
 * [Podmienený príkaz (29. 9.)](./2020/sen1/3-if.md)
 * [Ďalšie použitie príkazu `if` (6. 10.)](./2020/sen1/4-if-adv.md)
 * [Jednoduchý cyklus (12. 10.)](./2020/sen1/5-for.md)
+* [Cyklus `while` a reťazce (19. 10.)](./2020/sen1/6-strings.md)
 
 ### Seminár 2 (SEN2)
 
