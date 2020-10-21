@@ -37,7 +37,13 @@ Tu sme zavesili event `click` na udalosť kliknutie ľavým tlačítkom myši. H
 
 ## Úlohy
 
-TODO
+1. Naprogramujte funkcia, ktorá bude mať tri parametre `x`, `y` a `width`, do globálneho canvasu `c` vykreslí mriežku ako na obrázku, s tým že ľavý horný roh bude na pozícii `(x, y)`. A šírka jedného políčka bude `width`.
+
+   ![Empty checkerboard](./5-events/empty_checkerboard.png)
+
+2. Upravte funkcia v *(1)*, aby vykreslila šachovnicu. 
+
+   ![Checkerboard](./5-events/checkerboard.png)
 
 ## Domáca úloha
 
