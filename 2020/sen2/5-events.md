@@ -53,7 +53,7 @@ Tu sme zavesili event `click` na udalosť kliknutie ľavým tlačítkom myši. H
 
 ## Domáca úloha (3 body + 1 bod)
 
-Deadline utorok 27. október 2020 (23:59)
+Deadline utorok 3. november 2020 (23:59)
 
 1. Naprogramujte funkcia `uloha`, ktorá bude mať štyri parametre `x`, `y`, `n` a `width`, do globálneho canvasu `c` vykreslí obdĺžniky ako na obrázku, ľavý horný roh bude na pozícii `(x, y)`. A šírka prvého obdlížnika bude `width` a ostatné buduú vždy narastat o `width`. Dokopy bude `n` obdĺžnikov.
 
