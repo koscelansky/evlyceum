@@ -20,4 +20,4 @@
 * [Opakovanie 1/3 (1. 10.)](./2020/sen2/2-recap.md)
 * [Opakovanie 2/3 (8. 10.)](./2020/sen2/3-recap2.md)
 * [Opakovanie 3/3 (15. 10.)](./2020/sen2/4-recap3.md)
-* [Grafika a udalosto](./2020/sen2/5-events.md)
+* [Grafika a udalosti (22. 10.)](./2020/sen2/5-events.md)
