@@ -67,9 +67,9 @@ Python samozrejme číselné konverzie rovno podporuje. Funkcia `int` má druhý
 
 ## Domáca úloha (3 body + 1 bod)
 
-Deadline utorková skupina 1. novembra (nedeľa) 2020 23:59.
+Deadline utorková skupina 6. novembra (piatok) 2020 23:59.
 
-Deadline stredajšia skupina 2. novembra (pondelok) 2020 23:59.
+Deadline stredajšia skupina 7. novembra (sobota) 2020 23:59.
 
 1. Urobte aplikáciu, ktorá na vstup dostane číslo `n` od `2` do `16`, toto číslo bude reprezentovať v akej sústave sa nachádzame, potom bude na vstupe string `s`, ktorý je v tejto sústave (povolené cifry sú `0-9` a `a-f`). Na výstup máte tento string potom vypísať v štandardnej desiatkovej sústave. Nezabudnite aby program fungoval aj pre nulu a ak je `s` mimo tejto sústavy, tak vypíše chybu. Napríklad
 
