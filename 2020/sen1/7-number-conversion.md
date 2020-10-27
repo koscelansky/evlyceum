@@ -73,18 +73,19 @@ Deadline stredajšia skupina 7. novembra (sobota) 2020 23:59.
 
 1. Urobte aplikáciu, ktorá na vstup dostane číslo `n` od `2` do `16`, toto číslo bude reprezentovať v akej sústave sa nachádzame, potom bude na vstupe string `s`, ktorý je v tejto sústave (povolené cifry sú `0-9` a `a-f`). Na výstup máte tento string potom vypísať v štandardnej desiatkovej sústave. Nezabudnite aby program fungoval aj pre nulu a ak je `s` mimo tejto sústavy, tak vypíše chybu. Napríklad
 
-* ```
-  n=3
-  s='102'
-  Vysledok=11
-  ```
-  Je to preto, lebo v trojkovej sústave je to vlastne `1*3^2 + 0*3^1 + 2*3^0 = 9 + 0 + 2 = 11`
-* ```
-  n=11
-  s='10a'
-  Vysledok=131
-  ```
-  Tu `'a'` považujeme za `10`, teda výsledok vznikol ako `1*11^2 + 0*11^1 + 10*11^0`. Ak by bol string `s` `10b`, tak to je neplatný string, lebo `b` je už `11` to to nepatri do našej jedenástkovej sústavy.
+   * ```
+     n=3
+     s='102'
+     Vysledok=11
+     ```
+     Je to preto, lebo v trojkovej sústave je to vlastne `1*3^2 + 0*3^1 + 2*3^0 = 9 + 0 + 2 = 11`
+     
+   * ```
+     n=11
+     s='10a'
+     Vysledok=131
+     ```
+     Tu `'a'` považujeme za `10`, teda výsledok vznikol ako `1*11^2 + 0*11^1 + 10*11^0`. Ak by bol string `s` `10b`, tak to je neplatný string, lebo `b` je už `11` to to nepatri do našej jedenástkovej sústavy.
 
 ### Bonus
 
@@ -96,4 +97,4 @@ Deadline stredajšia skupina 7. novembra (sobota) 2020 23:59.
    * `'-'` -> `62`
    * `'_'` -> `63`
 
-Urobte aplikáciu, ktorej keď na vstup dáme toto youtube id, tak vypíše jeho číselnú reprezentáciu. 
+   Urobte aplikáciu, ktorej keď na vstup dáme toto youtube id, tak vypíše jeho číselnú reprezentáciu. 
