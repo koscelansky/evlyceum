@@ -98,3 +98,13 @@ Deadline stredajšia skupina 7. novembra (sobota) 2020 23:59.
    * `'_'` -> `63`
 
    Urobte aplikáciu, ktorej keď na vstup dáme toto youtube id, tak vypíše jeho číselnú reprezentáciu. 
+
+   Napríklad, ak by to youtube id bolo `Ia9`, tak potom výsledok je vlastne 
+
+   ```
+   'I' * 64**2 + 'a' * 64**1 + '9' * 64**0
+   8 * 64**2 + 26 * 64**1 + 61 * 64**0
+   8 * 4096 + 26 * 64 + 61 * 1
+   32768 + 1664 + 61
+   34493
+   ```
