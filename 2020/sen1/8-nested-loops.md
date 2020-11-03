@@ -83,7 +83,7 @@ Vypíše `1X2X3koniec4`.
    ...
    ```
 
-## Domáca úloha
+## Domáca úloha (3 body)
 
 Deadline utorková skupina 8. novembra (nedeľa) 2020 23:59.
 
