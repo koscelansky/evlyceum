@@ -13,6 +13,7 @@
 * [Jednoduchý cyklus (12. 10.)](./2020/sen1/5-for.md)
 * [Cyklus `while` a reťazce (19. 10.)](./2020/sen1/6-strings.md)
 * [Číselné konverzie (27. 10.)](./2020/sen1/7-number-conversion.md)
+* [Vnorené cykly (3. 11.)](./2020/sen1/8-nested-loops.md)
 
 ### Seminár 2 (SEN2)
 
