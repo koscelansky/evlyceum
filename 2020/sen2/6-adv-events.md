@@ -32,7 +32,7 @@ root.mainloop()
 
 Takto si zapamätamé súradnice pri prvom kliku a potom pri pohybe myšou ich budeme používať na to aby sme zisili ako a koľko sme prešli po canvase.
 
-# Časovač
+## Časovač
 
 Na funkciu časovača môžeme využit metódu canvasu `after`, ktorá verie dva parameter, prvý je čas za ktorý na tiknúť a druhý funkcia, ktorá sa má zavolať, napríklad, každú sekundu sa objaví na náhodnej pozícií červený štvorček. 
 
@@ -58,6 +58,14 @@ def tick():
 c.after(1000, tick)
 
 root.mainloop()
+```
+
+## Pekné kreslenie
+
+Stalo sa nám na hodine, že kreslenie hrubších čiar bolo také nepekne zubaté. Príčinou je, že predvolené ukončovanie čiar nie je vhodné na kreslenie. Ak to chcete mať OK musíte použiť parameter `capstyle`. 
+
+```py
+c.create_line(x, y, x1, y1, width=30, capstyle=tkinter.ROUND)
 ```
 
 ## Úlohy
