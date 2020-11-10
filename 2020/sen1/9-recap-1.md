@@ -18,31 +18,31 @@
 
 ## Domáca úloha
 
-Deadline utorková skupina 15. novembra (nedeľa) 2020 23:59.
+Deadline utorková skupina 22. novembra (nedeľa) 2020 23:59.
 
-Deadline stredajšia skupina 16. novembra (pondelok) 2020 23:59.
+Deadline stredajšia skupina 23. novembra (pondelok) 2020 23:59.
 
 Z troch úloh nižšie si vyberte **dve** ktoré urobíte (3 body), prípadne urobte *všetky tri za (4body, teda aj s bonusom)*.
 
 1. Naprogramujte aplikáciu, ktorá vypíše pre zadané `n` takýto tvar
    ```
-   *******
-   *** ***
-   **   **
-   *     *
+   XXXXXXX
+   XXX XXX
+   XX   XX
+   X     X
    ```
    Toto je pre `n=4`, teda `n` je počet riadkov. Postupné výpisy pre `n=1` az `n=3`
    ```
-   *
+   X
    ```
    ```
-   ***
-   * *
+   XXX
+   X X
    ```
    ```
-   *****
-   ** **
-   *   *
+   XXXXX
+   XX XX
+   X   X
    ```
 2. Naprogramujte aplikáciu, ktorá si zo vstupu načíta string a vypíše rovnaký string s tým, že všetky písená ktorých ASCII hodnota (výsledok funkcie `ord`) je delitelná `3` sa objavia ako veľké písmena. Teda `abcd ef` sa zmení na `abCd eF`.
 3. Naprogramujte konverziu z čísla do sústavy 26árnej. Kde jednotlivé cifry budú `a..z`, kde `a` je `0`, `b` je `1`, ..., `z` je `25`. Teda napríklad 
