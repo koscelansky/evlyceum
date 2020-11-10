@@ -31,7 +31,7 @@ Z troch úloh nižšie si vyberte **dve** ktoré urobíte (3 body), prípadne ur
    XX   XX
    X     X
    ```
-   Toto je pre `n=4`, teda `n` je počet riadkov. Postupné výpisy pre `n=1` az `n=3`
+   Toto je pre `n=4`, teda `n` je počet riadkov. Postupné výpisy pre `n=1` až `n=3`
    ```
    X
    ```
