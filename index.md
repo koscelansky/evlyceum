@@ -25,3 +25,4 @@
 * [Opakovanie 3/3 (15. 10.)](./2020/sen2/4-recap3.md)
 * [Grafika a udalosti (22. 10.)](./2020/sen2/5-events.md)
 * [Udalosti a časovač (5. 11.)](./2020/sen2/6-adv-events.md)
+* [Nové opakovanie (12. 11.)](./2020/sen2/7-recap4.md)
