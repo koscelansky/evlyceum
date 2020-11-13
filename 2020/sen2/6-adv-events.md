@@ -76,9 +76,10 @@ c.create_line(x, y, x1, y1, width=30, capstyle=tkinter.ROUND)
 
    ![Intersection](./6-adv-events/inter.png)
 
-4. Naprogramujte aplikáciu, ktorá po stlačený medzerníka na pozíciu kurzora otlačí obrázok nižšie. 
+4. Naprogramujte aplikáciu, ktorá po stlačený medzerníka na pozíciu kurzora otlačí obrázok nižšie. Teda vždy keď budeme myšou nad canvasom a stlačíme medzerník, tak sa toto logo vykreslí na pozíciu kurzora. Obrázok si stiahnite a uložte vedľa python programu, ktorý píšete. Ako sa kreslí do canvasu obrázok sa môžete dočítať napríklad na <https://stackoverflow.com/a/43009579>.
 
    ![Python logo](https://www.python.org/static/community_logos/python-powered-h-140x182.png)
+
 
 ## Domáca úloha (3 body + 1 bod)
 
