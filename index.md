@@ -26,3 +26,4 @@
 * [Grafika a udalosti (22. 10.)](./2020/sen2/5-events.md)
 * [Udalosti a časovač (5. 11.)](./2020/sen2/6-adv-events.md)
 * [Nové opakovanie (12. 11.)](./2020/sen2/7-recap4.md)
+* [Písomka (19. 11.)](./2020/sen2/8-exam.md)
