@@ -28,3 +28,4 @@
 * [Udalosti a časovač (5. 11.)](./2020/sen2/6-adv-events.md)
 * [Nové opakovanie (12. 11.)](./2020/sen2/7-recap4.md)
 * [Písomka (19. 11.)](./2020/sen2/8-exam.md)
+* [Jednorozmerne pole (26. 11.)](./2020/sen2/9-lists.md)
