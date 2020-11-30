@@ -16,6 +16,7 @@
 * [Vnorené cykly (3. 11.)](./2020/sen1/8-nested-loops.md)
 * [Opakovanie (10. 11.)](./2020/sen1/9-recap-1.md)
 * [Pisomka (23. 11.)](./2020/sen1/10-exam.md)
+* [Podprogramy a funkcie (1. 12.)](./2020/sen1/11-functions.md)
 
 ### Seminár 2 (SEN2)
 
