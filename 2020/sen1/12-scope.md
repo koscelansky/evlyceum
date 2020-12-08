@@ -32,7 +32,7 @@ Deadline stredajšia skupina 14. december (pondelok) 2020 23:59.
 
 Naprogramujte aplikáciu, ktorá bude mať dve globálne premenné `owner` a `balance`. Vrámci aplikácie potom urobte tieto štyri funkcie. 
 
-* `create_account`, ktorá bude mať jeden parameter a to meno vlastníka účtu, výsledok funkcie bude, že `owner` bude nastavený na toto meno a `balanca` bude 0.
+* `create_account`, ktorá bude mať jeden parameter a to meno vlastníka účtu, výsledok funkcie bude, že `owner` bude nastavený na toto meno a `balance` bude 0.
 * `deposit`, táto funkcia bude mať jeden parameter, ktorý bude hovoriť o koľko sa má hodnota `balance` zvýšiť. 
 * `withdrawal`, podobne ako `deposit`, ale hodnotu odčíta.
 * `print_balance`, funkcia bez parametrov, ktorá vypíše meno vlastníka (teda premennú `owner`) a potom sumu (teda premennú `balance`), ak je suma záporná, tak za celý výpis pridá ešte výkričník (`!`). 
