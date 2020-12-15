@@ -58,16 +58,16 @@ Deadline stredajšia skupina 11. január (pondelok) 2021 23:59.
 
 1. Naprogramujte aplikáciu, ktorá dostane ako vstup číslo `n`. A vypíše `n` riadkový trojuholník, s tým, že každý riadok sa vypisuje presne jednu sekundu. Takže prvý riadok vypíše jednu hviezdičku potom po sekunde sa vypíše ďalšia hviezdička na nový riadok, tu sa počká iba 500ms a vypíše sa druhá, potom po ďalších 500m sa pokračuje ďalším riadkom. Samotný trojuholník by mal vyzerať takto (príklad `n == 4`)
 
-```plain
-*
-**
-***
-****
-```
+   ```plain
+   *
+   **
+   ***
+   ****
+   ```
 
 2. Vyrobte funkciu, ktorá dostane ako vstup číslo `n` a string `s`. Potom tento string **vypíše** počas `n` sekúnd. S tým, ale že samohlásky `aeiouAEIOU` sa vypisujú dva krát rýchlejšie ako spoluhlásky. 
 
-**BONUS** Naprogramujte aplikáciu, ktorá dostane ako vstup jedno číslo a vypíše všetky dvojice prvočísel, ktoré sú od seba vzdialené o dva. Teda pre číslo 20 to bude výpis. 
+**BONUS** Naprogramujte aplikáciu, ktorá dostane ako vstup jedno číslo `n` a vypíše všetky dvojice prvočísel, ktoré sú ostro menšie ako `n`. Dvojice prvočísel sú prvočísla, ktoré sú od seba vzdialené `2`, teda ich rozdiel je `2`. Teda pre číslo 20 bude výpis. 
 
 ```
 3 5
