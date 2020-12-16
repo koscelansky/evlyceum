@@ -33,4 +33,4 @@
 * [Písomka (19. 11.)](./2020/sen2/8-exam.md)
 * [Jednorozmerné pole (26. 11.)](./2020/sen2/9-lists.md)
 * [Dvojrozmerné pole 1/2 (3. 12.)](./2020/sen2/10-2d-lists.md)
-* [Dvojrozmerné pole 2/2 (3. 12.)](./2020/sen2/10-2d-lists-2.md)
+* [Dvojrozmerné pole 2/2 (10. 12.)](./2020/sen2/11-2d-lists-2.md)
