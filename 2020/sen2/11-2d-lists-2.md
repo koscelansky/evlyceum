@@ -15,7 +15,7 @@ Deadline utorok 12. január 2021 (23:59)
 
 1. (6bodov) Gui pre hru pexeso, ktorú sme naprogramovali (tú vám nejak sprístupním), musíte vlastne vykresliť do canvasu hraci plán 6x6, potom po kliknutí myšou sa odokryje jedno políčko, po druhom kliknutí sa odokryje druhé (pozor na kliknutie do rovnakého políčka, tu by druhý klik nemal nič robiť). Ak sme trafili rovnaké, tak ostanú odokryté, inak po 3 sekundách zmyznú (teda musíte použiť funkciu `after`). 
 
-2. Naprogramujte konzolovú aplikaciu, ktorej najprv zadavame trojice tovar, množstvo a cena za kus. Potom keď zadáme prázdny riadok, tak sa aplikácia prepne do režimu, kde zadávame meno tovaru a ak sa nájde tak sa vypíše celková cena zásob a ak nie, tak sa vypíše "Tovar sa nenasiel". Po zadaný prázdneho riadku znovu aplikácia skončí. (pozn. na ukladanie môžete použiť napríklad dve polia, v jednom budú mená tovarov a v druhom ceny, potom podľa indexu ich viete previazať). Príklad vstupu (kurzivom je časť, ktorú nezadávam, ale ju vypíše aplikácia)
+2. (3body) Naprogramujte konzolovú aplikaciu, ktorej najprv zadavame trojice tovar, množstvo a cena za kus. Potom keď zadáme prázdny riadok, tak sa aplikácia prepne do režimu, kde zadávame meno tovaru a ak sa nájde tak sa vypíše celková cena zásob a ak nie, tak sa vypíše "Tovar sa nenasiel". Po zadaný prázdneho riadku znovu aplikácia skončí. (pozn. na ukladanie môžete použiť napríklad dve polia, v jednom budú mená tovarov a v druhom ceny, potom podľa indexu ich viete previazať). Príklad vstupu (kurzivom je časť, ktorú nezadávam, ale ju vypíše aplikácia)
    * muka 4 0.5
    * cukor 10 1.3
    * bmw 1 35000
