@@ -13,7 +13,7 @@
 
 Deadline utorok 12. január 2021 (23:59)
 
-1. (6bodov) Gui pre hru pexeso, ktorú sme naprogramovali (tú vám nejak sprístupním), musíte vlastne vykresliť do canvasu hraci plán 6x6, potom po kliknutí myšou sa odokryje jedno políčko, po druhom kliknutí sa odokryje druhé (pozor na kliknutie do rovnakého políčka, tu by druhý klik nemal nič robiť). Ak sme trafili rovnaké, tak ostanú odokryté, inak po 3 sekundách zmyznú (teda musíte použiť funkciu `after`). 
+1. (6bodov) Gui pre hru pexeso, ktorú sme naprogramovali (tú vám nejak sprístupním), musíte vlastne vykresliť do canvasu hraci plán 6x6, potom po kliknutí myšou sa odokryje jedno políčko, po druhom kliknutí sa odokryje druhé (pozor na kliknutie do rovnakého políčka, tu by druhý klik nemal nič robiť). A tak ďalej vždy keď klikneme na nové neodokryté políčko, tak sa odokryje. Máte teda iba naprogramovať vizualizáciu a odokrývanie políčok.  
 
 2. (3body) Naprogramujte konzolovú aplikaciu, ktorej najprv zadavame trojice tovar, množstvo a cena za kus. Potom keď zadáme prázdny riadok, tak sa aplikácia prepne do režimu, kde zadávame meno tovaru a ak sa nájde tak sa vypíše celková cena zásob a ak nie, tak sa vypíše "Tovar sa nenasiel". Po zadaný prázdneho riadku znovu aplikácia skončí. (pozn. na ukladanie môžete použiť napríklad dve polia, v jednom budú mená tovarov a v druhom ceny, potom podľa indexu ich viete previazať). Príklad vstupu (kurzivom je časť, ktorú nezadávam, ale ju vypíše aplikácia)
    * muka 4 0.5
@@ -29,4 +29,4 @@ Deadline utorok 12. január 2021 (23:59)
    * 
    ```
 
-3. Bonus (2body) Urobte nápovedu, po vybratí prvej karty ak stlačím medzerník, tak sa mi označia 4 karty (červenou bodkou), pod jednou z nich je dvojička ku karte a ostatné sú vybrané náhodne. Nápoveda nefunguje ak sú už iba 4, alebo menej neodkrytých kariet.
+3. Bonus (2body) Doprogramujte samotnú hru. Teda prvé kliknutie odhalí prvú kartičku, druhé druhú. Ak sme trafili rovnaké, tak ostanú odokryté, inak po 3 sekundách zmyznú (teda musíte použiť funkciu `after`). A tak ďalej až pokiaľ sa nepodarí odokryť všetky. 
