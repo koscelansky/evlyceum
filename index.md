@@ -19,6 +19,7 @@
 * [Podprogramy a funkcie (1. 12.)](./2020/sen1/11-functions.md)
 * [Scope (8. 12.)](./2020/sen1/12-scope.md)
 * [Časovač (16. 12.)](./2020/sen1/13-timer.md)
+* [Náhodné čísla (12. 1.)](./2020/sen1/14-random.md)
 
 ### Seminár 2 (SEN2)
 
