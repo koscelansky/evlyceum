@@ -52,4 +52,5 @@ Opravovať budem priebežne, takže ak chcete vedieť aká známka vám vychádz
    * hadane cislo je vacsie
    * *3*
    * uhadil si, pocet pokusov 4
+   
    Kurzivom je to čo zadáva užívateľ. 
