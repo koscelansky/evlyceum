@@ -13,7 +13,7 @@ V priebehu polroku budeme programovať. Spolu vás čaká najmenej 14 aktivít, 
   * z programovania
   * 1-2 praktické úlohy (niečo naprogramovať)
   * 0-3 otázky týkajúce sa preberaného učiva
-  * maximálny počet bodov: **2×18**
+  * maximálny počet bodov: **1×18**
 
 Okrem toho môžete získať i extra body za bonusové domáce úlohy (maximálny počet bodov podľa ponuky).
 
