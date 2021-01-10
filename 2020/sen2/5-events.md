@@ -4,7 +4,7 @@ V predchádzajúcej hodine sme mali ako [vyrobiť](./4-recap3.md) v `Tk` okno, d
 
 ## Canvas
 
-Zaujimavé funkcie na kreslenie v `canvas`e sú 
+Zaujímavé funkcie na kreslenie v `canvas`e sú 
   
   * `create_oval`
   * `create_rectangle`
@@ -16,7 +16,7 @@ Všetky tieto sú dobre popísané inde a ich opis tu je trochu ako nosenie drev
 
 ## Udalosti
 
-Na viazanie udalostí sa používa funkcia `bind`. Ma dva parametre, prvý je meno udalosti a druhý je callback funkcia, ktorá sa má zavolať. Napríklad 
+Na viazanie udalostí sa používa funkcia `bind`. Má dva parametre, prvý je meno udalosti a druhý je callback funkcia, ktorá sa má zavolať. Napríklad 
 
 ```py
 import tkinter 
@@ -33,13 +33,13 @@ c.pack()
 root.mainloop()
 ```
 
-Tu sme zavesili event `click` na udalosť kliknutie ľavým tlačítkom myši. Handler má jeden parameter, čo sú parametre udalosti. Vypisovať všetky udalosti by znovu bolo vyčerpávajúce a až je to urobené inde. Napríklad <https://effbot.org/tkinterbook/tkinter-events-and-bindings.htm> v časti *Event Formats*.
+Tu sme zavesili event `click` na udalosť kliknutie ľavým tlačítkom myši. Handler má jeden parameter, čo sú parametre udalosti. Vypisovať všetky udalosti by znovu bolo vyčerpávajúce a už je to urobené inde. Napríklad <https://effbot.org/tkinterbook/tkinter-events-and-bindings.htm> v časti *Event Formats*.
 
 ## Úlohy
 
 1. Naprogramujte aplikáciu, ktorá nájde najväčšie číslo, ktoré vznikne ako súčin dvoch práve štvorciferných čísel a je zároveň aj palindrom. Pre trojciferné je výsledok `906609`. 
 
-2. Naprogramujte funkcia, ktorá bude mať tri parametre `x`, `y` a `width`, do globálneho canvasu `c` vykreslí mriežku ako na obrázku, s tým že ľavý horný roh bude na pozícii `(x, y)`. A šírka jedného políčka bude `width`.
+2. Naprogramujte funkciu, ktorá bude mať tri parametre `x`, `y` a `width`, do globálneho canvasu `c` vykreslí mriežku ako na obrázku, s tým že ľavý horný roh bude na pozícii `(x, y)`. A šírka jedného políčka bude `width`.
 
    ![Empty checkerboard](./5-events/empty_checkerboard.png)
 
@@ -49,13 +49,13 @@ Tu sme zavesili event `click` na udalosť kliknutie ľavým tlačítkom myši. H
 
 4. Naprogramujte aplikáciu, ktorá vždy po kliknutí nakreslí vycentrovaný (na kurzor) kruh o háhodnej veľkosti (`5` až `50`) a budú sa striedať farby zelená, žltá a červená.
 
-5. Naprogramujte aplikáciu, ktorá pri prvom kliku začne presliť úsečku a pri druhom ju dokončí. *Vedeli by ste ju upraviť tak aby pravý klik zrušil začatie úsěcky? Teda po ľavom kliku a potom pravom nasledujúci ľavý nedokončí úsečku, ale začne novú.*
+5. Naprogramujte aplikáciu, ktorá pri prvom kliku začne kresliť úsečku a pri druhom ju dokončí. *Vedeli by ste ju upraviť tak aby pravý klik zrušil začatie úsěcky? Teda po ľavom kliku a potom pravom nasledujúci ľavý nedokončí úsečku, ale začne novú.*
 
 ## Domáca úloha (3 body + 1 bod)
 
 Deadline utorok 3. november 2020 (23:59)
 
-1. Naprogramujte funkcia `uloha`, ktorá bude mať štyri parametre `x`, `y`, `n` a `width`, do globálneho canvasu `c` vykreslí obdĺžniky ako na obrázku, ľavý horný roh bude na pozícii `(x, y)`. A šírka prvého obdlížnika bude `width` a ostatné buduú vždy narastat o `width`. Dokopy bude `n` obdĺžnikov.
+1. Naprogramujte funkciu `uloha`, ktorá bude mať štyri parametre `x`, `y`, `n` a `width`, do globálneho canvasu `c` vykreslí obdĺžniky ako na obrázku, ľavý horný roh bude na pozícii `(x, y)`. A šírka prvého obdĺžnika bude `width` a ostatné budú vždy narastať o `width`. Dokopy bude `n` obdĺžnikov.
 
    ![Rectangles](./5-events/rectangles.png)
 

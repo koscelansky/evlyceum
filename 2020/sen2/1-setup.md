@@ -1,19 +1,19 @@
 ## Bezpečnost práce pri počítači
 
-Počítače sú zariadenia pod prúdom a tak sa k nim musíme chovať. Nemanipuluje s otvorenými súčasťami. K bezpečnosti pratrí aj správne sedenie, prestávky.
+Počítače sú zariadenia pod prúdom a tak sa k nim musíme chovať. Nemanipulujte s otvorenými súčasťami. K bezpečnosti pratrí aj správne sedenie, prestávky.
 
 [Pracovisko s počítačom (príručka)](https://www.ip.gov.sk/wp-content/uploads/2017/11/Prirucka1.pdf)
 
 ## Prostredie Python
 
-Na programovanie bude používať jazyk Python. Aktuálna verzia je 3.8, odporúčam mať nainštalovanú tú, ale aj o niečo staršia bude fungovať. Stiahnuť sa dá z [Windows Store](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l) ak používate Windows 10. Prípadne sa dá použiť [inštalátor](https://www.python.org/downloads/). Pre ostatné platformy buď použijete inštalátor, alebo ideálne package manager (napr. *apt-get*). Po nainštalovaný by ste mali mať dostupné prostredie **IDLE**. Je to veľmi jednoduché a vhodné iba na skúšanie. My budeme používať vývojové prostredie [VS Code](https://code.visualstudio.com/Download). Po jeho spustení si treba nainštalovať [rozšírenie na Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
+Na programovanie budeme používať jazyk Python. Aktuálna verzia je 3.8, odporúčam mať nainštalovanú tú, ale aj o niečo staršia bude fungovať. Stiahnuť sa dá z [Windows Store](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l) ak používate Windows 10. Prípadne sa dá použiť [inštalátor](https://www.python.org/downloads/). Pre ostatné platformy buď použijete inštalátor, alebo ideálne package manager (napr. *apt-get*). Po nainštalovaní by ste mali mať dostupné prostredie **IDLE**. Je to veľmi jednoduché a vhodné iba na skúšanie. My budeme používať vývojové prostredie [VS Code](https://code.visualstudio.com/Download). Po jeho spustení si treba nainštalovať [rozšírenie na Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
 
-Ak ste všetko správne nainštalovali, tak funkčnosť si overíme jednoduhým *Hello world!* programom.
+Ak ste všetko správne nainštalovali, tak funkčnosť si overíme jednoduchým *Hello world!* programom.
 
 1. Spustíme VS Code (tip: stačí do command line zadať `code`)
 2. Vyberieme `New file`
 3. Stlačíme `Ctrl+S` a uložíme súbor ako `hello.py`
-4. Napíšeme do editora `print("Hello world!")` a uložime pomocou `Ctrl+S`
+4. Napíšeme do editora `print("Hello world!")` a uložíme pomocou `Ctrl+S`
 5. Stlačíme `F5` a vyberieme `Python file`
 6. Počkáme a v konzole by sa malo zobraziť `Hello world!`.
 
@@ -29,7 +29,7 @@ Vytvorte program, ktorý dostane na vstupe číslo `n` a na výstup vypíše sú
 
 ### Simple sort
 
-vytvorte program, ktorý načítava čísla zo vstupu. Skončí ak je zadaný prázdny vstup. Potom všetky čísla vypíše utriedené od najväčšieho po najmenšie. 
+Vytvorte program, ktorý načítava čísla zo vstupu. Skončí ak je zadaný prázdny vstup. Potom všetky čísla vypíše utriedené od najväčšieho po najmenšie. 
 
 ### GCD
 

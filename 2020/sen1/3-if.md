@@ -25,11 +25,11 @@ else:
   print('You are not Juraj!')
 ```
 
-Za `if` ide podmienka, takže napríklad číslené porovnanie (napríklad `x == 3`, `x != 3`, `x < 3`, `x >= 3`), alebo porovnanie reťazcov. A potom dvojbodka. Ďalšie odsadené (Python je veľmi striktný pri zarovnaní programu, riadky patracie pod `if` musia mať na začiatku tabulátor, alebo rovnako veľa medzier) riadky sú príkazy, ktoré s vykonajú ak je podmienka splnená. Potom nasleduje `else` s dvojbodkou (pozor to už má rovnaké zarovnanie ako `if`) a znovu odsadené príkazy, ktoré sa vykonajú ak je podmienka nesplnená.
+Za `if` ide podmienka, takže napríklad číselné porovnanie (napríklad `x == 3`, `x != 3`, `x < 3`, `x >= 3`), alebo porovnanie reťazcov. A potom dvojbodka. Ďalšie odsadené (Python je veľmi striktný pri zarovnaní programu, riadky patriace pod `if` musia mať na začiatku tabulátor, alebo rovnako veľa medzier) riadky sú príkazy, ktoré sa vykonajú ak je podmienka splnená. Potom následuje `else` s dvojbodkou (pozor to už má rovnaké zarovnanie ako `if`) a znovu odsadené príkazy, ktoré sa vykonajú ak je podmienka nesplnená.
 
 ## Zložitejšie podmienky
 
-Logické výrazy sa môžu skladať s viacerých podmienok spojených bud pomocou `and` (a), alebo `or` (alebo). Nasledujúca podmienka je splnená ak `x` je väčšie rovné `0` a zároveň je menšie ako `10`. 
+Logické výrazy sa môžu skladať z viacerých podmienok spojených buď pomocou `and` (a), alebo `or` (alebo). Nasledujúca podmienka je splnená ak `x` je väčšie rovné `0` a zároveň je menšie ako `10`. 
 
 ```python
 if x >= 0 and x < 10:
@@ -51,13 +51,13 @@ Tu sme vlastne podmienku otočili, ak `x` je menšie ako `0` alebo je väčšie 
 
 ## Úlohy
 
-1. Napíšte program, ktorý načíta dve čísla, ak je prvé menšie ako druhé, tak vypíše `mensie` inak vypíše `vacsie alebo rovne`. 
+1. Napíšte program, ktorý načíta dve čísla. Ak je prvé menšie ako druhé, tak vypíše `mensie` inak vypíše `vacsie alebo rovne`. 
 
-2. Napíšte program, ktorý načíta rok a vypíše, či je, alebo nie je priestupný (zatiaľ je pre naše účely je priestupný rok, taký ktorý je deliteľný 4).
+2. Napíšte program, ktorý načíta rok a vypíše, či je, alebo nie je priestupný (zatiaľ pre naše účely je priestupný rok, taký ktorý je deliteľný 4).
 
-3. Napíšte program, ktorý načíta dve čísla vypíše väčšie z nich.
+3. Napíšte program, ktorý načíta dve čísla a vypíše väčšie z nich.
 
-4. Napíšte program, ktorý pri zadaní koeficientov `a`, `b` a `c` kvadratickej rovnici vypíše `ma realne korene` ak rovnica má aspoň jeden reálny koreň. *(Má reálne korene ak diskriminant je väčší alebo rovný ako 0).*
+4. Napíšte program, ktorý pri zadaní koeficientov `a`, `b` a `c` kvadratickej rovnice vypíše `ma realne korene` ak rovnica má aspoň jeden reálny koreň. *(Má reálne korene ak diskriminant je väčší alebo rovný ako 0).*
 
 5. Napíšte program, ktorý prečíta tri čísla a vypíše najmenšie z nich.
 

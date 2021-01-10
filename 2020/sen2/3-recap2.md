@@ -37,9 +37,9 @@
 
    Pričom najdlhší riadok má dĺžku `n`. Teda vyššie je uvedený výsledok pre `n == 4`. Pre `n == 1` bude výsledkom iba jedna `*`.
 
-3. Naprogramujte funkcie `def jeprvocislo(n):`, ktorá dostane na vstup číslo `n` a vypíše či je toto číslo prvočíslo alebo nie.
+3. Naprogramujte funkciu `def jeprvocislo(n):`, ktorá dostane na vstup číslo `n` a vypíše či je toto číslo prvočíslo alebo nie.
 
-4. Naprogramujte funkcie `def palindrom(s):`, ktorá dostane na vstup string `s` a vypíše, či je reťazec palindrom, teda či sa číta oboma smermy rovnako. 
+4. Naprogramujte funkciu `def palindrom(s):`, ktorá dostane na vstup string `s` a vypíše, či je reťazec palindrom, teda či sa číta oboma smermy rovnako. 
    * aa, abba, aaafaaa sú palindromy
    * ab, abbac, caaa nie sú palindomy
 
@@ -76,7 +76,7 @@ Naprogramujte dve funkcie.
      ```
    A tak ďalej, vždy bude plná iba časť okolo a v strede budú medzery. 
 
-2. Druhá sa bude volať `def ibaABC(s)`, dostane na vstupe string a vypíše `áno`, alebo `nie` podľa toho, či sú všetky znaky v `s` iba `A`, `B`, alebo `C`. Teda pre `ABBBAC` vypíše `áno` a pre `ABBBDC` vypiše `nie`. (1bod)
+2. Druhá sa bude volať `def ibaABC(s)`, dostane na vstupe string a vypíše `áno`, alebo `nie` podľa toho, či sú všetky znaky v `s` iba `A`, `B`, alebo `C`. Teda pre `ABBBAC` vypíše `áno` a pre `ABBBDC` vypíše `nie`. (1bod)
 
 Bonus za jeden bod. Naprogramujte funkciu `def sachovnica(n):`, ktorá vykreslí nasledovný útvar
    ```

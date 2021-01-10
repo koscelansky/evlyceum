@@ -1,14 +1,14 @@
 # Scope
 
-Názvy premenných sa v Pythone hladajú najprv v *lokálnom scope* vo funkcii, teda to sú všetky premenné, ktoré sú prvý krát definované vo funkcií a jej parametre. Potom v "enclosing scope", toto nás zatiaľ nemusí vôbec trápiť. Ďalej v *globálnom scope* (premenné, ktoré sú definované, len tak v súbore mimo toho aby boli vo funkcií) a nakoniec *built-in* premenné. 
+Názvy premenných sa v Pythone hladajú najprv v *lokálnom scope* vo funkcii, teda to sú všetky premenné, ktoré sú prvý krát definované vo funkcii a jej parametre. Potom v "enclosing scope", toto nás zatiaľ nemusí vôbec trápiť. Ďalej v *globálnom scope* (premenné, ktoré sú definované, len tak v súbore mimo toho aby boli vo funkcii) a nakoniec *built-in* premenné. 
 
 Oveľa viacej sa dá o tejto téme dočítať na stránke <https://sebastianraschka.com/Articles/2014_python_scope_and_namespaces.html>.
 
 ## Funkcie `locals()` a `globals()`
 
-Funkcia `locals()` nám vráti všetky aktuálne lokálne premenné, nemôžeme ich modifikovať, iba čítať. Pomocou `print(locals())` vieme si ich všetky zobraziť. Funkcia `globals()` funguje podobne pre globálne premenné. 
+Funkcia `locals()` nám vráti všetky aktuálne lokálne premenné, nemôžeme ich modifikovať, iba čítať. Pomocou `print(locals())` si ich vieme všetky zobraziť. Funkcia `globals()` funguje podobne pre globálne premenné. 
 
-## Globálne premenné vo funkcií
+## Globálne premenné vo funkcii
 
 Čítať globálne premenné z funkcie vieme bez problémov. Ak sa ju ale pokúsime zapísať Python sa bude stažovať. Na to aby sme to vedeli musíme niekde pred prvé použitie globálnej premennej napísať `global`, asi takto. 
 

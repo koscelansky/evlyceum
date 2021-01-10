@@ -13,7 +13,7 @@ from time import * # potom staci volat funkcie iba ako monotonic()
 
 ## `monotonic`
 
-Funkcia `monotonic` vráti hodnotu `float`, ktorá sama o seba skoro nič neznamená, ale vieme ju porovnať s druhým volaním `monotonic` a ich rozdiel je počet sekúnd, ktoré uplynuli medzi nimi. Monotonic znamená, že aj keď niekto zmení čas na počítači, tak táto zmena sa neprejavý na výsledku funkcie `monotonic`. 
+Funkcia `monotonic` vráti hodnotu `float`, ktorá sama o seba skoro nič neznamená, ale vieme ju porovnať s druhým volaním `monotonic` a ich rozdiel je počet sekúnd, ktoré uplynuli medzi nimi. Monotonic znamená, že aj keď niekto zmení čas na počítači, tak táto zmena sa neprejaví na výsledku funkcie `monotonic`. 
 
 ## `time`
 
@@ -30,7 +30,7 @@ time.struct_time(tm_year=2020, tm_mon=12, tm_mday=14, tm_hour=22, tm_min=38, tm_
 
 ## `sleep`
 
-Funkcia `sleep` pozastaví vykonávanie na zadaný počet sekúnd, po tomto čase sa pokračuje vo funkcií ďalej.
+Funkcia `sleep` pozastaví vykonávanie na zadaný počet sekúnd, po tomto čase sa pokračuje vo funkcii ďalej.
 
 ```py
 import time
@@ -42,9 +42,9 @@ print(time.monotonic() - start) # 1.001228777345
 
 ## Úlohy
 
-1. Vytvorte aplikáciu, ktorá vypísuje čísla od `1` do `100` s tkým, že každé ďalšie číslo sa vypíše s jednosekundovým intervalom. 
+1. Vytvorte aplikáciu, ktorá vypísuje čísla od `1` do `100` s tým, že každé ďalšie číslo sa vypíše s jednosekundovým intervalom. 
 2. Naprogramujte aplikáciu, ktorá nám povie aký bude dátum o zadaný počet sekúnd od dnes. 
-3. Urobte aplikáciu, ktorá vypíše štrvorec `8x8` z hviezdičiek, s tým, že sa začne od ľavej hornej hviezdičky a každá ďalšia hviezdička sa zobrazí s oneskorením `300ms`. 
+3. Urobte aplikáciu, ktorá vypíše štvorec `8x8` z hviezdičiek, s tým, že sa začne od ľavej hornej hviezdičky a každá ďalšia hviezdička sa zobrazí s oneskorením `300ms`. 
 4. Urobte aplikáciu, ktorá nakreslí štvorec ako úloha 3 s tým, že vykreslovanie zrýchluje z jednej sekundy pri druhej hviezdičke až po 0 sekúnd pri poslednej hviezdičke. 
 5. Naprogramujte funkciu, ktorá zistí pre zadané čísla `a`, `b`, `n` vypočíta `(a ^ b) mod n`, spolu s týmto **vypíše** aj ako dlho táto funkcia bežala. 
 
@@ -65,7 +65,7 @@ Deadline stredajšia skupina 11. január (pondelok) 2021 23:59.
    ****
    ```
 
-2. Vyrobte funkciu, ktorá dostane ako vstup číslo `n` a string `s`. Potom tento string **vypíše** počas `n` sekúnd. S tým, ale že samohlásky `aeiouAEIOU` sa vypisujú dva krát rýchlejšie ako spoluhlásky. 
+2. Vyrobte funkciu, ktorá dostane ako vstup číslo `n` a string `s`. Potom tento string **vypíše** počas `n` sekúnd. S tým, ale že samohlásky `aeiouAEIOU` sa vypisujú dvakrát rýchlejšie ako spoluhlásky. 
 
 **BONUS** Naprogramujte aplikáciu, ktorá dostane ako vstup jedno číslo `n` a vypíše všetky dvojice prvočísel, ktoré sú ostro menšie ako `n`. Dvojice prvočísel sú prvočísla, ktoré sú od seba vzdialené `2`, teda ich rozdiel je `2`. Teda pre číslo 20 bude výpis. 
 

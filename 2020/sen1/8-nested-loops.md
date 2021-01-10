@@ -12,7 +12,7 @@ for i in range(10):
     print(i, j)
 ```
 
-Takýto program vypíše `100` riadkov. Začne pri `0 0`, potom ide aź k `0 9`, potom `1 0` až `1 9`, posledný vypísaný prvok bude `9 9`. Dôležite je aby sme premennú vo vnorenom cykle nazvali ina ako vo vonkajšom inak budeme mať problémy. Štandardne sa používajú názvy premenných `i`, `j`, `k`. Samozrejme nič nám nebráni použiť iné názvy.
+Takýto program vypíše `100` riadkov. Začne pri `0 0`, potom ide aź k `0 9`, potom `1 0` až `1 9`, posledný vypísaný prvok bude `9 9`. Dôležite je aby sme premennú vo vnorenom cykle nazvali inak ako vo vonkajšom, inak budeme mať problémy. Štandardne sa používajú názvy premenných `i`, `j`, `k`. Samozrejme nič nám nebráni použiť iné názvy.
 
 ## `print`
 
@@ -31,7 +31,7 @@ Vypíše `1X2X3koniec4`.
 ## Úlohy
 
 1. Vypíšte dvojice čísel `1..9`, kde jedno delí druhé. Teda dvojica `4 2` bude na výstupe, ale `3 4` nie. 
-2. Napíšte program, ktorý pre zadané `n` (zo vstupu) vykresli tabuľku. 
+2. Napíšte program, ktorý pre zadané `n` (zo vstupu) vykreslí tabuľku. 
    ```
    1234..n
    1234..n
@@ -46,7 +46,7 @@ Vypíše `1X2X3koniec4`.
    1234
    1234
    ```
-3. Upravte program z úlohy *(2)* tak aby vypisoval nie stvorce, ale trojuholníky, teda pre vstup `4`. 
+3. Upravte program z úlohy *(2)* tak aby vypisoval nie štvorce, ale trojuholníky, teda pre vstup `4`. 
    ```
    1
    12
@@ -100,4 +100,4 @@ Deadline stredajšia skupina 9. novembra (pondelok) 2020 23:59.
    VWXYZAB
    CDEFGHIJ
    ```
-   Ako vidíte abeceda sa cyklí, teda ked sa dostanem na `Z`, tak pokra+cujem `A`. Tu vám pomôžu funkcie `chr` a `ord` čo sme mali minule. 
+   Ako vidíte abeceda sa cyklí, teda keď sa dostanem na `Z`, tak pokračujem `A`. Tu vám pomôžu funkcie `chr` a `ord` čo sme mali minule. 

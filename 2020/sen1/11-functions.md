@@ -1,10 +1,10 @@
 # Funkcie
 
-Funkcie sú základom každého imperatívneho programovacieho jazyka akym je aj Python. Slúžia na rozdelenie programu do logických celkom, ktoré potom lepšie dokážeme chápať a na znovu používanie kódu. 
+Funkcie sú základom každého imperatívneho programovacieho jazyka akým je aj Python. Slúžia na rozdelenie programu do logických celkov, ktoré potom lepšie dokážeme chápať a na znovu používanie kódu. 
 
 ## Definovanie funkcií 
 
-V pythone máme kľúčové slovo `def`, za ním nasleduje meno funkcie, potom parametre a na záver dvojbodka. Potom telo funkcie, to môže byť akoby ďalší python program, môžeme robiť všetko to čo mimo funkcie. 
+V pythone máme kľúčové slovo `def`, za ním následuje meno funkcie, potom parametre a na záver dvojbodka. Potom telo funkcie, to môže byť akoby ďalší python program, môžeme robiť všetko to čo mimo funkcie. 
 
 ```py
 def toto_je_Funkcia123():
@@ -20,7 +20,7 @@ toto_je_Funkcia123()
 
 ## Parametere
 
-Funkcie môžu mať parametre, uvádzame ich ako mená v zátvorkách, potom vo funkcií sa na ne môžeme odvolávať danými menami. 
+Funkcie môžu mať parametre, uvádzame ich ako mená v zátvorkách, potom vo funkcii sa na ne môžeme odvolávať danými menami. 
 
 ```py
 def ahoj(meno, priezvisko):
@@ -33,7 +33,7 @@ ahoj('First Name', priezv)
 
 ## Návratové hodnoty
 
-Funkcie môžu aj vraciať hodnoty, robí sa to pomocou kľúčového slova `return`.
+Funkcie môžu aj vracať hodnoty, robí sa to pomocou kľúčového slova `return`.
 
 ```py
 def parne(n):
@@ -46,11 +46,11 @@ if parne(x):
 
 ## Úlohy
 
-1. Naprogramujte funkcia, ktorá vypočíta faktoriál daného čísla. 
-2. Naprogramujte funkcia, ktorá spočíta všetky čísla medzi zadanými hranicami ako parametre, teda napriklad `funkcia(4, 7)` vráti výsledok `4 + 5 + 6 + 7`, teda `22`.
-3. Naprogramujte funkcia, ktorá z troch čísel na vstupe vráti maximum.
+1. Naprogramujte funkciu, ktorá vypočíta faktoriál daného čísla. 
+2. Naprogramujte funkciu, ktorá spočíta všetky čísla medzi zadanými hranicami ako parametre, teda napriklad `funkcia(4, 7)` vráti výsledok `4 + 5 + 6 + 7`, teda `22`.
+3. Naprogramujte funkciu, ktorá z troch čísel na vstupe vráti maximum.
 4. Naprogramujte funkciu, ktorá vráti či je číslo prvočíslo.
-5. V úlohe *2* vypíšte celý výraz aj s výsledokom. 
+5. V úlohe *2* vypíšte celý výraz aj s výsledkom. 
 6. Naprogramujte funkciu powmod, ktorá dostane tri (`a`, `b`, `n`) čísla a vypočíta `(a ** b) % n`. Viete to urobiť rýchlejšie?
 
 ## Domáca úloha

@@ -37,26 +37,26 @@ Hello
 world!
 ```
 
-`print` podporuje aj výpis viacerých hodnôt súčasne (tieto oddeli medzerou), teda napríklad `print('Ahoj', 'svet', 123, '!')` vypíše na konzolu `Ahoj svet 123 !`.
+`print` podporuje aj výpis viacerých hodnôt súčasne (tieto oddelí medzerou), teda napríklad `print('Ahoj', 'svet', 123, '!')` vypíše na konzolu `Ahoj svet 123 !`.
 
-Vypisovať nemusíme iba hodnoty ale aj obsah premenných. Teda napríklad
+Vypisovať nemusíme iba hodnoty, ale aj obsah premenných. Teda napríklad
 
 ```python
 x = 2
 print('Premenna X =', x)
 ```
 
-zobrazi `Premenna X = 2`.
+zobrazí `Premenna X = 2`.
 
 ## Vstup z príkazového riadku
 
-Vypisovanie je všetko pekné, ale bez vstupov do programu by nám k ničomu moc nebol. Na jednoduchý vstup z konzoly slúži funkcia `input`. Ak program príde na vykonanie tejto funkcia, tak zastane a čaká na náš vstup. Vtedy ho môžeme zadať a potvrdiť s enterom. Výsledok funkcie `input` je potom hodnota ktorú sme zadali. 
+Vypisovanie je všetko pekné, ale bez vstupov do programu by nám k ničomu moc nebol. Na jednoduchý vstup z konzoly slúži funkcia `input`. Ak program príde na vykonanie tejto funkcie, tak zastane a čaká na náš vstup. Vtedy ho môžeme zadať a potvrdiť s enterom. Výsledok funkcie `input` je potom hodnota, ktorú sme zadali. 
 
 ```python
 input()
 ```
 
-Takýto program čaká na vstup a po stlačený enteru program skončí. My si túto hodnotu chceme uložiť aby sme s ňou vedeli pracovať. 
+Takýto program čaká na vstup a po stlačení enteru program skončí. My si túto hodnotu chceme uložiť aby sme s ňou vedeli pracovať. 
 
 ```python
 x = input()
@@ -64,9 +64,9 @@ print(x)
 print(x)
 ```
 
-Daný program čaká na vstup a keď ho zadáme, tak ho dva krát vypíše.
+Daný program čaká na vstup a keď ho zadáme, tak ho dvakrát vypíše.
 
-Výstup z funcie `input` je vždy reťazec, takže ak by sme predchádzajúci program modifikovali ako 
+Výstup z funkcie `input` je vždy reťazec, takže ak by sme predchádzajúci program modifikovali ako 
 
 ```python
 x = input()
@@ -74,7 +74,7 @@ print(x)
 print(x // 2)
 ```
 
-Po zadaci napríklad čísla `5` je výsledok
+Po zadaní napríklad čísla `5` je výsledok
 
 ```
 5
@@ -94,15 +94,15 @@ print(x // 2)
 
 Tento program už korektne po zadaní `5` vypíše `5` a potom `2` (lebo `5` po celočíselnom delení `2` je `2`). Mohlo by nás napadnúť čo sa stane ak zadáme nie číslo, napríklad `ahoj`, toto sa nedá skonvertovať na číslo a Python skončí s chybou `ValueError: invalid literal for int() with base 10: 'ahoj'`. To je pre nás akceptovatelné správanie. 
 
-Funkcia `input` môže dostať jeden parameter, je to string, ktorý sa zobrazí užívateľovi, aby vedel čo sa od neho očakáva. Takže napríklad ak chceme aby zacal číslo môžeme použiť `x = int(input('Enter a number'))` potom sa na konzole zobrazí `Enter a number` a program bude čakať na zadanie čísla. 
+Funkcia `input` môže dostať jeden parameter, je to string, ktorý sa zobrazí užívateľovi, aby vedel čo sa od neho očakáva. Takže napríklad ak chceme aby zadal číslo môžeme použiť `x = int(input('Enter a number'))` potom sa na konzole zobrazí `Enter a number` a program bude čakať na zadanie čísla. 
 
 ## Základné typy a operácie
 
-V Pythone existuje niekoľko základných typov. Základné sú preto, lebo sú v Pythone dosptupné bez akýchkoľvek knižníc. Je ich niekoľko, nás bude zaujímať hlavne `int`, `str` a obmedzenej miere `float`.
+V Pythone existuje niekoľko základných typov. Základné sú preto, lebo sú v Pythone dosptupné bez akýchkoľvek knižníc. Je ich niekoľko, nás bude zaujímať hlavne `int`, `str` a v obmedzenej miere `float`.
 
 ### Celé čísla
 
-Najjednoduhší typ je `int`, teda *integer*. Predstavuje jedno celé číslo. Python umožňuje pracovať s číslami ľubovoľnej dĺžky. 
+Najjednoduchší typ je `int`, teda *integer*. Predstavuje jedno celé číslo. Python umožňuje pracovať s číslami ľubovoľnej dĺžky. 
 
 ```python
 x = 123456789
@@ -130,7 +130,7 @@ print((10 + 3)*2) # 26
 
 ### Desatinné čísla
 
-Typ `float` vie reprezentovat desatinné číslo (*floating point*). Tu už nemáme neobmedzenú veľkosť. Tieto čísla sa zapisujú s podkou. 
+Typ `float` vie reprezentovat desatinné číslo (*floating point*). Tu už nemáme neobmedzenú veľkosť. Tieto čísla sa zapisujú s bodkou. 
 
 ```python
 1.2
@@ -172,7 +172,7 @@ b = input('zadaj B')
 print(a + b)
 ```
 
-pre vstup `2` a `3` by sme očakávali výstup `5`, v skutočnosti bude výstup `23`, lebo `a` aj `b` sú typu `string` a teda operátor `+` nerobi sčítanie čísel ale reťazcov. Musíme teda tento typ skonvertovať. To sa robí pomocou funkcie `int` (rovnako sú aj funkcie `float` a `str` pre konverziu na desatinné číslo a reťazec). 
+pre vstup `2` a `3` by sme očakávali výstup `5`, v skutočnosti bude výstup `23`, lebo `a` aj `b` sú typu `string` a teda operátor `+` nerobí sčítanie čísel ale reťazcov. Musíme teda tento typ skonvertovať. To sa robí pomocou funkcie `int` (rovnako sú aj funkcie `float` a `str` pre konverziu na desatinné číslo a reťazec). 
 
 ```python
 a = int(input('zadaj A'))

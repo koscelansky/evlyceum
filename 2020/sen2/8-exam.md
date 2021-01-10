@@ -6,7 +6,7 @@ Tento týždeň sme mali písomku cez Google Forms.
 
 Deadline utorok 24. november 2020 (23:59)
 
-1. Urobte funkciu zebra s dvoma prametrami `x` a `y`, ktorá nakreslí približne tvar z obrázka (je to taká zebra bez nôh 😎). Parametre `x` a `y` určujú pozíciu na canvase. Či to bude stred obrázka, alebo ľavý horný roh, alebo nieči iné je jedno. 
+1. Urobte funkciu zebra s dvoma prametrami `x` a `y`, ktorá nakreslí približne tvar z obrázka (je to taká zebra bez nôh 😎). Parametre `x` a `y` určujú pozíciu na canvase. Či to bude stred obrázka, alebo ľavý horný roh, alebo niečo iné je jedno. 
 
    ![Zebra](./8-exam/zebra.png)
 

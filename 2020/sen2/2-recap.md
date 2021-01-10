@@ -13,7 +13,7 @@
 
 ## Úlohy
 
-1. Napíšte program, ktorý prečíta mesiac (číslom) a rok a vypíše počet dní v danom mesiaci. Zohľadnice priestupné roky, rok je priestupný ak je deliteľný 4, no ak je deliteľný 100, tak musí byť aj 400. Teda rok 2000 bol, ale 1900 nebol a ani 2100 nebude. 
+1. Napíšte program, ktorý prečíta mesiac (číslom) a rok a vypíše počet dní v danom mesiaci. Zohľadnite priestupné roky, rok je priestupný ak je deliteľný 4, no ak je deliteľný 100, tak musí byť aj 400. Teda rok 2000 bol, ale 1900 nebol a ani 2100 nebude. 
 
    ```
    Zadaj mesiac 1
@@ -60,7 +60,7 @@
 
    Pričom najdlhší riadok má dĺžku `n`. Teda vyššie je uvedený výsledok pre `n == 4`. Pre `n == 1` bude výsledkom iba jedna `*`.
 
-4. Naprogramujte funkcie `def hex2bin(s):`, ktorá dostane na vstup string `s` číslom v šesťnáskovej sústave, toto číslo potom prevedie do binárnej a vypíše ho na konzolu.
+4. Naprogramujte funkcie `def hex2bin(s):`, ktorá dostane na vstup string `s` s číslom v šesťnástkovej sústave, toto číslo potom prevedie do binárnej a vypíše ho na konzolu.
 
    ```
    hex2bin('deadbeef')

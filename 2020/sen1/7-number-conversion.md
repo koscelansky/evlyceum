@@ -1,22 +1,22 @@
 # Číselné konverzie
 
-Poznáme mnohé číslené sústavy, štandardne používame desiatkovú (preto lebo máme 10 prstov). V IT svete sa často vykytujú binárne (základ 2), osmičkové (základ 8), šestnástkové (alebo aj hexadecimálne so základom 16) a 64kové (base64). Všetky tieto sústavy používajú znaky na kódovanie číslic
+Poznáme mnohé číselné sústavy, štandardne používame desiatkovú (preto lebo máme 10 prstov). V IT svete sa často vykytujú binárne (základ 2), osmičkové (základ 8), šestnástkové (alebo aj hexadecimálne so základom 16) a 64kové (base64). Všetky tieto sústavy používajú znaky na kódovanie číslic
 
 * desiatková `0-9`
 * binárna `0-1`
-* šestnásková `0-9` a `a-f`
+* šestnástková `0-9` a `a-f`
 
 Hodnota daného čísla je potom daná pozíciami čísel. Napríklad 
 
 * `123` v desiatkovej sústave je vlastne `1*10^2 + 2*10^1 + 3*10^0`,
 * `1001` v binárnej je potom `1*2^3 + 0*2^2 + 0*2^1 + 1*2^0`,
-* `af` v šestnáskovej je `10*16^1 + 15*16^0`.
+* `af` v šestnástkovej je `10*16^1 + 15*16^0`.
 
 ## Konverzie
 
 Ak chcem jednu sústavu konvertovať na druhú, tak najprv si prvú prevediem na číslo a potom toto číslo zakódujem do výslednej sústavy. 
 
-Príklad. Mám reťazec v osmičkovej sústave a chcem z neho šestnáskovú. 
+Príklad. Mám reťazec v osmičkovej sústave a chcem z neho šestnástkovú. 
 
 Najprv načítame číslo ako reťazec a prevedieme ho na číslo. 
 
@@ -29,9 +29,9 @@ for i in range(len(o) - 1, -1, -1):
   mocnina += 1
 ```
 
-Išli sme odzadu po jednotlivých cifrách (posledný parameter v range hovorí aký je krok, teda kam sa posuniem v nasledujúcej iterácií). Potom sme skladali číslo po jednodlivých mocninách, zobrali sme cifru, skonverovali a vynásobili príslušnou mocninou osmičky.
+Išli sme odzadu po jednotlivých cifrách (posledný parameter v range hovorí aký je krok, teda kam sa posuniem v nasledujúcej iterácií). Potom sme skladali číslo po jednodlivých mocninách, zobrali sme cifru, skonvertovali a vynásobili príslušnou mocninou osmičky.
 
-Teraz musíme číslo previesť na šestnáskovú sústavu. To urobíme štandardným delením a prechádzaním po hex cifrách. 
+Teraz musíme číslo previesť na šestnástkovú sústavu. To urobíme štandardným delením a prechádzaním po hex cifrách. 
 
 ```py
 h = ''
@@ -57,13 +57,13 @@ Použitie majú tieto funkcie hlavne v tamdeme, kde najprv znak skonvertuje na �
 
 ## Vstavané funkcie
 
-Python samozrejme číselné konverzie rovno podporuje. Funkcia `int` má druhý parameter, ktorý hovorí o tom v akej sústave je vstupný string. Rovnako existujú funkcie `bin`, `oct` a `hex`, ktoré zase konvertujú číslo na string požadovanej reprezentácie. Tieto funkcie, ale štandardne pridávajú prefix, napríklad pre hex je to `0x`. Tieto funkcie na tejto hodine a ulohe používať nebudeme. 
+Python samozrejme číselné konverzie rovno podporuje. Funkcia `int` má druhý parameter, ktorý hovorí o tom v akej sústave je vstupný string. Rovnako existujú funkcie `bin`, `oct` a `hex`, ktoré zase konvertujú číslo na string požadovanej reprezentácie. Tieto funkcie, ale štandardne pridávajú prefix, napríklad pre hex je to `0x`. Tieto funkcie na tejto hodine a úlohe používať nebudeme. 
 
 ## Úlohy
 
 1. Dorobte do príkladu na konverziu vyššie spracovanie nuly a ošetrenie chybného vstupu.
-2. Urobte program, ktorý skonvertuje šestnáskový reťazec do binárnej sústavy. 
-3. Doprogramujte do úlohy *(2)* a aby mohol byť vstup aj veľké aj malé písmena. 
+2. Urobte program, ktorý skonvertuje šestnástkový reťazec do binárnej sústavy. 
+3. Doprogramujte do úlohy *(2)* a aby mohol byť vstup aj veľké aj malé písmená. 
 
 ## Domáca úloha (3 body + 1 bod)
 
@@ -85,7 +85,7 @@ Deadline stredajšia skupina 7. novembra (sobota) 2020 23:59.
      s='10a'
      Vysledok=131
      ```
-     Tu `'a'` považujeme za `10`, teda výsledok vznikol ako `1*11^2 + 0*11^1 + 10*11^0`. Ak by bol string `s` `10b`, tak to je neplatný string, lebo `b` je už `11` to to nepatri do našej jedenástkovej sústavy.
+     Tu `'a'` považujeme za `10`, teda výsledok vznikol ako `1*11^2 + 0*11^1 + 10*11^0`. Ak by bol string `s` `10b`, tak to je neplatný string, lebo `b` je už `11` a to nepatrí do našej jedenástkovej sústavy.
 
 ### Bonus
 
