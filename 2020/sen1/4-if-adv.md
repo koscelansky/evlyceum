@@ -24,7 +24,7 @@ else:
 
 ## Vnorený `if`
 
-Všetky príkazy v jazyku Python sa dajú do seba vkladať. V jednom podmienenom prikaze môže byť ďalší. Ak chceme napríklad zistiť či je číslo deliteľné aj `5` aj `7`, môžeme to utobiť pomocou operátora `and`
+Všetky príkazy v jazyku Python sa dajú do seba vkladať. V jednom podmienenom príkaze môže byť ďalší. Ak chceme napríklad zistiť či je číslo deliteľné aj `5` aj `7`, môžeme to urobiť pomocou operátora `and`
 
 ```python
 if x % 5 == 0 and x % 7 == 0:
@@ -39,7 +39,7 @@ if x % 5 == 0:
     print('je delitelne aj 5 aj 7')
 ```
 
-tieto dva programy su ekvivalentné. Oba `if`-y môžu mať aj svoj `else`, tuna pozor na odsadenie, `else` musí byť vždy zarovno `if`-u ku ktorému patrí. Prípadne môžeme iba niektorú vetvu vynechať. Program, ktorý "rozpozná" moje meno.
+tieto dva programy su ekvivalentné. Oba `if`-y môžu mať aj svoj `else`, tuná pozor na odsadenie, `else` musí byť vždy zarovno `if`-u ku ktorému patrí. Prípadne môžeme iba niektorú vetvu vynechať. Program, ktorý "rozpozná" moje meno.
 
 ## Viacnásobný `if`
 
@@ -91,9 +91,9 @@ print(a < b < c < d) # prints false
 
 2. Naprogramujte program, ktorému zadáte počet bodov a on vám podľa [stupnice](./grading.md) vypíše známku. Pri riešení môžete použiť `elif`. 
 
-3. Skúste program s úlohy 2 prepísať bez použitia konštrukcie `elif`, teda iba pomocou `if` a `else`.
+3. Skúste program z úlohy 2 prepísať bez použitia konštrukcie `elif`, teda iba pomocou `if` a `else`.
 
-4. Romyslite si aspoň 3 vstupu, pre ktoré by program nižšie vypísal OK. 
+4. Rozmyslite si aspoň 3 vstupy, pre ktoré by program nižšie vypísal OK. 
 
    ```python
    x = int(input())

@@ -13,7 +13,7 @@ Reťazec nám vracajú funkcie ako `input()`.
 
 ## Jednotlivé znaky
 
-Dĺžku reťazca získame volaním funkcie `len`, prístup k jednotlivým znakom je cez operátor `[]`, teda ak chceme pod seba vypísať všetky písmena v reťazci, môžeme zo urobiť takto. 
+Dĺžku reťazca získame volaním funkcie `len`, prístup k jednotlivým znakom je cez operátor `[]`, teda ak chceme pod seba vypísať všetky písmena v reťazci, môžeme to urobiť takto. 
 
 ```py
 s = input()
@@ -30,7 +30,7 @@ for i in s:
 
 tu `i` nadobúda postupne všetky znaky v reťazci, teda už nepoužívame `s[i]`, ale priamo `i`.
 
-Stringy sa nedajú meniť, takže ak potrebuje string upraviť musíme vytvoriť nový. Teda napríklad nemáme radi všetky písmena `x` a `X`, tak to urobíme takto 
+Stringy sa nedajú meniť, takže ak potrebujeme string upraviť musíme vytvoriť nový. Teda napríklad ak nemáme radi všetky písmena `x` a `X`, tak to urobíme takto 
 
 ```py
 s = 'strixnxg x s pxismenxami'
@@ -80,9 +80,9 @@ while x != 'bonifac':
   x = input()
 ```
 
-Tento program bude bežať až pokiaľ nezadáte meno `bonifac`. Teda cyklus bude bežať dokiaľ je pomienka splnená. 
+Tento program bude bežať až pokiaľ nezadáte meno `bonifac`. Teda cyklus bude bežať dokiaľ je podmienka splnená. 
 
-Napríklad nás program môže vygenerovať náhodné číslo, a my ho musíme potom uhádnuť. 
+Napríklad náš program môže vygenerovať náhodné číslo, a my ho musíme potom uhádnuť. 
 
 ```py
 import random
@@ -96,7 +96,7 @@ while p != x:
 ## Úlohy
 
 1. Modifikujte hádací program v časti o `while`, tak aby na záver vypísal koľko pokusov na to potreboval.
-2. Modifikujte program *(1)* tak aby po každom tipe vypísal, či je tip menši ako hádané číslo, alebo väčší. 
+2. Modifikujte program *(1)* tak aby po každom tipe vypísal, či je tip menší ako hádané číslo, alebo väčší. 
 3. Naprogramujte program, ktorý zo zadaného reťazca vymaže všetky samohlásky.
 4. Naprogramujte program, ktorý použije iba `while` cyklus a zistí prvý výskyt zadaného znaku v reťazci. Teda pre reťazec `ajfghif` a `f` vypíše `2` (čísluje sa od 0).
 5. Naprogramujte program, ktorý dostane na vstup string `s` a vypíše, či je reťazec palindrom, teda či sa číta oboma smermi rovnako. 

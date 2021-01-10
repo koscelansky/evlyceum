@@ -16,7 +16,7 @@ a = [
 ]
 ```
 
-Prístup je potom rovnaký ako v jednorozmernému polu, teda `a[0]` je prvé pole a teda `a[0][0]` je potom prvý prvok v prvom poli, teda vlastne `1`. `insert`, `append` a `pop` fungujú rovnako ako v prípade jednorozmerného pola. 
+Prístup je potom rovnaký ako k jednorozmernému polu, teda `a[0]` je prvé pole a teda `a[0][0]` je potom prvý prvok v prvom poli, teda vlastne `1`. `insert`, `append` a `pop` fungujú rovnako ako v prípade jednorozmerného pola. 
 
 Viac o dvojrozmerných poliach sa môžete dočítať napríklad na <https://www.tutorialspoint.com/python_data_structure/python_2darray.htm>.
 
