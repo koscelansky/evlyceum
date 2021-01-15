@@ -4,15 +4,131 @@ V predchádzajúcej hodine sme mali ako [vyrobiť](./4-recap3.md) v `Tk` okno, d
 
 ## Canvas
 
-Zaujímavé funkcie na kreslenie v `canvas`e sú 
-  
-  * `create_oval`
+Na kreslenie do okna (takzvaný `canvas`) používame funkcie ako
+
+  * `create_line`
   * `create_rectangle`
+  * `create_oval`
+  * `create_polygon`
   * `create_text`
   * `create_image`
-  * ...
 
-Všetky tieto sú dobre popísané inde a ich opis tu je trochu ako nosenie dreva do lesa. Dobrý tutorial je napríklad <https://www.python-course.eu/tkinter_canvas.php>.
+Každá z týchto funkcií dostáva súradnice kde sa má útvar vykresliť. Súradnicové osi začínajú v lavom-hornom rohu a rastú doprava a dolu:
+
+![tkintner coordinates](5-events/tkinter_coordinates.png)
+
+### create_line
+
+Príklad vykreslenia čiary pomocou `create_line`:
+```py
+import tkinter 
+
+root = tkinter.Tk()
+
+c = tkinter.Canvas(bg='white', width=640, height=480)
+c.pack()
+
+c.create_line(10, 10, 630, 470)
+
+root.mainloop()
+```
+Program vykreslí čiaru ktorá začína 10 pixelov vpravo dolu od ľavé-horného rohu okna a skončí 10 pixelov od pravého-dolného rohu.
+
+![príklad čiara 1](5-events/priklad-ciara-1.png)
+
+Za súradnicami čiary je možné špecifikovať ďalšie pomenované parametre (toto samozrejme nie je kompletný zoznam, ten si môžte pozrieť napríklad [tu](https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/create_line.html)).
+
+* `fill` : farba výplne
+* `width` : šírka čiary 
+
+Tu je príklad v ktorom vyskreslíme 30 náhodných čiar:
+
+```py
+import tkinter
+import random
+
+def get_random_color():
+    return f'#{random.randint(0, 16**6):06x}'
+
+root = tkinter.Tk()
+
+c = tkinter.Canvas(bg='white', width=640, height=480)
+c.pack()
+
+for _ in range(30):
+    c.create_line(random.randint(10, 630),
+                  random.randint(10, 470),
+                  random.randint(10, 630),
+                  random.randint(10, 470),
+                  width=10, fill=get_random_color())
+
+root.mainloop()
+```
+
+![príklad čiara 2](5-events/priklad-ciara-2.png)
+
+### create_rectangle, create_oval
+
+`create_rectangle` a `create_oval` sú podobné funkcie. Jedna vykreslí obĺžnik, alebo štvorec a druhá s ronvakými parametrami vkreslí doňho elispu, alebo kružnicu. Pre tieto funkcie môžme použiť ďalší paramter
+
+* `outline` : farba čiary
+
+Tu je príklad vykreslenia obdĺžnika a kružnice:
+
+```py
+import tkinter 
+
+root = tkinter.Tk()
+
+c = tkinter.Canvas(bg='white', width=640, height=480)
+c.pack()
+
+c.create_rectangle(40, 40, 320, 100, width=5, fill='#78A39F', outline='#253D49')
+
+c.create_rectangle(390, 250, 490, 350, width=0, fill='#CBD4E9')
+c.create_oval(390, 250, 490, 350, width=2, outline='black')
+
+root.mainloop()
+```
+
+![príklad oval a rectangle](5-events/priklad-oval-rect.png)
+
+### create_polygon
+
+`create_polygon` nedostáva na vstupe 4 súradnice ako funkcie doteraz, ale dostáva lubovolne vela bodov, teda dvojíc `x` a `y`. Funkcia spojí tieto body čiarou v poradí v akom boli zadané. Napríklad:
+```py
+import tkinter 
+
+root = tkinter.Tk()
+
+c = tkinter.Canvas(bg='white', width=640, height=480)
+c.pack()
+
+c.create_polygon(100, 300, 320, 100, 540, 300, width=5, fill='red')
+
+root.mainloop()
+```
+
+![príklad polygon](5-events/priklad-polygon.png)
+
+### create_text
+
+Funkcia vypíše text na obrazovku. Na vstupe dostáva len jeden bod, ktorý predstavuje stred obdĺžnika v ktorom sa text nachádza. Ďalej je možné použiť (okrem iných) tieto pomenované parametre:
+* `text` : text ktorý sa má vypísať
+* `font` : font ktorým sa má text vypísať, napríklad `font=('Arial', 12, 'bold italic')`, kde číslo 12 je velkosť písma
+
+```
+root = tkinter.Tk()
+
+c = tkinter.Canvas(bg='white', width=640, height=480)
+c.pack()
+
+c.create_text(100, 300, text='python', fill='blue', font=('Arial', 50))
+
+root.mainloop()
+```
+
+![príklad text](5-events/priklad-text.png)
 
 ## Udalosti
 
