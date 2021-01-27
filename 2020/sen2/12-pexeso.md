@@ -121,7 +121,7 @@ c.bind("<Button-1>", klik)
 root.mainloop()
 ```
 
-# Domáca úloha 
+## Domáca úloha 
 
 Deadline utorok 19. január 2021 (23:59)
 
