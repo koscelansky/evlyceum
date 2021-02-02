@@ -120,4 +120,4 @@ K nasledujúcim trom príkladam napíšte formátovací reťazec, ktorý vytvor�
 
 ### Bonus (1bod)
 
-Pamätáte si úlohu 6 z [vnorených cykolov](./8-nested-loops.md)? Asi ani nie :), skúste ju naprogramovať s tým, že využijete centrovanie výpisov pomocou funkcie `format`. 
+Pamätáte si úlohu *6* z [vnorených cykolov](./8-nested-loops.md)? Asi ani nie :), skúste ju naprogramovať s tým, že využijete centrovanie výpisov pomocou funkcie `format`. 
