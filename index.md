@@ -2,10 +2,10 @@
 
 * [Všeobecné informácie](./2020/common.md)
 * [Príprava prostredia](./2020/setup.md) *Live Share*
+* [Hodnotenie](./2020/grading.md)
 
 ### Seminár 1 (SEN1)
 
-* [Hodnotenie](./2020/sen1/grading.md)
 * [Príprava prostredia](./2020/sen1/1-setup.md)
 * [Opakovanie](./2020/sen1/2-recap.md)
 * [Podmienený príkaz (29. 9.)](./2020/sen1/3-if.md)
@@ -25,7 +25,6 @@
 
 ### Seminár 2 (SEN2)
 
-* [Hodnotenie](./2020/sen2/grading.md)
 * [Príprava prostredia](./2020/sen2/1-setup.md)
 * [Opakovanie 1/3 (1. 10.)](./2020/sen2/2-recap.md)
 * [Opakovanie 2/3 (8. 10.)](./2020/sen2/3-recap2.md)

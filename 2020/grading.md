@@ -1,6 +1,20 @@
-## Hodnotenie
+# Hodnotenie
 
-V priebehu polroku budeme hlavne programovať. Spolu vás čaká najmenej 14 aktivít, a to:
+## Hodnotenie v druhom polroku 
+
+V druhom polroku nás budú rovnako ako v prvom čakať aktivity, ktoré budú bodované, z bodov sa vám potom vypočíta nasledujúci percentuálny priemer a podľa toho dostanete známku. Aktivity budú štandardne domáce úlohy, písomky a potom bonusy na úlohách na ktorých viete získať body navyše.
+
+| OD | DO |	ZNÁMKA |
+|----|----|--------|
+| 90% | ∞ | 1 |
+| 75% | 89,9% |	2 |
+| 50% | 74,9% |	3 |
+| 30 | 49,9% | 4 |
+| 0 | 29,9 | 5 |
+
+## Hodnotenie v prvom polroku
+
+V priebehu polroku budeme hlavne programovať. Spolu vás čaká najmenej 13 aktivít, a to:
 
 1. dvanásť ohodnotených domácich úloh
   * takmer každý týždeň bude zadaná úloha za 3 body
