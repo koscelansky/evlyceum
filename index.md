@@ -38,3 +38,4 @@
 * [Dvojrozmerné pole 2/2 (10. 12.)](./2020/sen2/11-2d-lists-2.md)
 * [Pexeso (15. 1.)](./2020/sen2/12-pexeso.md)
 * [Pixely (27. 1.)](./2020/sen2/13-pixels.md)
+* [Súbory (4. 2.)](./2020/sen2/14-files.md)
