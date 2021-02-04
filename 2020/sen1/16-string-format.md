@@ -49,9 +49,18 @@ Niekedy potrebujeme aby boli naše stringy aj nejak vyzerali, napríklad chceme 
 '{:<10}{:^10}{:>10}'.format(123, 456, 789)
 ```
 
-* `{:<20}` spôsobý, že parameter bude zaberať aspoň 20 znakov a ak je kratší, tak bude sprava doplnení medzerami, teda efektívne bude zarovnaký vľavo. `'Ahoj {:<20}!'.format('ziak')`, bude vyzerať takto `'Ahoj ziak                !'`. 
-* `{:>20}` podobne ako v predchádzajúcom prípade, akurát budú doplnené medzery zľava a teda efektívne bude string zarovnaný doprava (toto sa používa hlavne s číslami). `'Ahoj {:>20}!'.format('ziak')`, bude vyzerať takto `'Ahoj                 ziak!'`.
-* `{:^20}` spôsobí, že string bude rovnomerne doplnení medzerami zľava a sprava, tak aby opticky vyzeral v strede 20 znakov, ktoré má vyhradené. `'Ahoj {:^20}!'.format('ziak')`, bude vyzerať takto `'Ahoj         ziak        !'`.
+* `{:<20}` spôsobý, že parameter bude zaberať aspoň 20 znakov a ak je kratší, tak bude sprava doplnení medzerami, teda efektívne bude zarovnaký vľavo. `'Ahoj {:<20}!'.format('ziak')`, bude vyzerať takto 
+  ```plain
+  Ahoj ziak                !
+  ``` 
+* `{:>20}` podobne ako v predchádzajúcom prípade, akurát budú doplnené medzery zľava a teda efektívne bude string zarovnaný doprava (toto sa používa hlavne s číslami). `'Ahoj {:>20}!'.format('ziak')`, bude vyzerať takto
+  ```plain
+  Ahoj                 ziak!
+  ```
+* `{:^20}` spôsobí, že string bude rovnomerne doplnení medzerami zľava a sprava, tak aby opticky vyzeral v strede 20 znakov, ktoré má vyhradené. `'Ahoj {:^20}!'.format('ziak')`, bude vyzerať takto 
+  ```plain
+  Ahoj         ziak        !
+  ```
 * `{:_^20}` znak pred `^`, prípadne dá sa použiť aj s `<` a `>`, hovorí o tom aký znakom sa string dopĺňa, štandardne je to medzera. `'Ahoj {:_^20}!'.format('ziak')`, bude vyzerať takto `'Ahoj ________ziak________!'`.
 
 ## Číselné sústavy
