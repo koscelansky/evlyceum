@@ -70,8 +70,7 @@ Pozrite sa aj na úlohy z [formátovania stringov](../sen1/16-string-format.md).
 
 1. Prečítajte samého seba (teda python zdroják) a vypíšte ho bez všetkych whitespaceov (všetky znaky kde `isspace` vráti `True`).
 2. V súbore `cisla.txt` budú celé čísla, každé na jednom riadku, vypíšte ich priemer.
-3. V súbore `cisla.txt` budú celé čísla (od `0` do `99`), každé na jednom riadku, vypíšte ich modus, teda číslo, ktoré sa v súbore vyskytuje najviackrát.
-4. V súbore `strings.txt` budú stringy, vypíšte tento súbor na konzolu obrátene. Napríklad 
+3. V súbore `strings.txt` budú stringy, vypíšte tento súbor na konzolu obrátene. Napríklad 
    ```
    Ahoj evlyceum!
    Uz je druhy polrok.
@@ -97,11 +96,10 @@ K nasledujúcim trom príkladam napíšte formátovací reťazec, ktorý vytvor�
 
 Druhá časť (1,5boda)
 
-V súbore `uloha.txt` budú na začiatku dve čísla, prvé bude hovoriť po koľkých riadkov má byt medzera a druhé na kolko znakov majú byť riadku zarovnané v strede (ak bude niektorý riadok dlhší, tak tento riadko ostane tak, bez akéhokoľvek zarovnania). Teda napríklad pre vstup 
+V súbore `uloha.txt` bude na začiatku číslo, bude hovoriť o tom po koľkých riadkov má byt medzera (teda nový riadok). Vypíšte súbor podľa týchto pravidiel na konzolu. Teda napríklad pre vstup 
 
 ```
 3
-20
 Lorem ipsum dolor sit amet, 
 consectetur adipiscing 
 elit, sed do eiusmod
@@ -116,8 +114,19 @@ rhoncus urna neque
 Bude výstup 
 
 ```
-TBA
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing 
+elit, sed do eiusmod
+
+        tempor
+incididunt ut labore
+et dolore magna aliqua.
+
+Rhoncus mattis
+rhoncus urna neque
+  viverra justo nec.
 ```
 
 ### Bonus (1bod)
 
+V súbore `cisla.txt` bude niekoľko celých čísel ( hodnotami od `0` do `99`), každé na jednom riadku, vypíšte ich modus, teda číslo, ktoré sa v súbore vyskytuje najviackrát.
