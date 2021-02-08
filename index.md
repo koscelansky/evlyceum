@@ -22,6 +22,7 @@
 * [Náhodné čísla (12. 1.)](./2020/sen1/14-random.md)
 * [Funkcie nad reťazcami (25. 1.)](./2020/sen1/15-string2.md)
 * [Formátovacie reťazce (2. 2.)](./2020/sen1/16-string-format.md)
+* [String slicing (2. 2.)](./2020/sen1/17-strings3.md)
 
 ### Seminár 2 (SEN2)
 
