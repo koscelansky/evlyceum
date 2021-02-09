@@ -105,7 +105,7 @@ Deadline utorková skupina 14. február (nedeľa) 2021 23:59.
 
 Deadline stredajšia skupina 15. február (pondelok) 2021 23:59.
 
-Podobne ako v úlohe *3*, máte k dispozícií string `s = '123456789'` a pomocou sliceov z neho naprogramujte nasledujúci útvar
+Podobne ako v úlohe *3*, máte k dispozícií string `s = '123456789'` a pomocou sliceov z neho naprogramujte nasledujúci útvar. *Riešenia ako 9 printov pod sebou neakceptujem.*
 
 ```plain
 9
