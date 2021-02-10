@@ -121,7 +121,7 @@ Podobne ako v úlohe *3*, máte k dispozícií string `s = '123456789'` a pomoco
 
 ### Bonus (1bod)
 
-Ako v úlohe *3* máte k dispozícií string `s = 98765432123456789`, urobte pomocou slice a funkcie `format` (žiadne nové stringy, okrem formátovacieho reťazca do funkcie `format`) nasledujúci útvar. 
+Ako v úlohe *3* máte k dispozícií string `s = 9876543210123456789`, urobte pomocou slice a funkcie `format` (žiadne nové stringy, okrem formátovacieho reťazca do funkcie `format`) nasledujúci útvar. 
 
 ```plain
          0
