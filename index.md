@@ -40,4 +40,4 @@
 * [Pexeso (15. 1.)](./2020/sen2/12-pexeso.md)
 * [Pixely (27. 1.)](./2020/sen2/13-pixels.md)
 * [Súbory (4. 2.)](./2020/sen2/14-files.md)
-* [Výstup do súboru (4. 2.)](./2020/sen2/14-files.md)
+* [Výstup do súboru (11. 2.)](./2020/sen2/15-out-files.md)
