@@ -23,6 +23,7 @@
 * [Funkcie nad reťazcami (25. 1.)](./2020/sen1/15-string2.md)
 * [Formátovacie reťazce (2. 2.)](./2020/sen1/16-string-format.md)
 * [String slicing (9. 2.)](./2020/sen1/17-strings3.md)
+* [Reťazce 3 (17. 2.)](./2020/sen1/18-string4.md)
 
 ### Seminár 2 (SEN2)
 
