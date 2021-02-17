@@ -94,9 +94,9 @@ print(replace(s, 25, t)) # Trochu dlhsi string
 Urobte funkciu `rotateWords(s)`, ktorá orotuje vsetky slová, slová sú časti stringu oddelené medzerov. 
 
 ```py
-print(rotateWords("string")) # gtirns
+print(rotateWords("string")) # gnirts
 
-print(rotateWords("string je retazec")) # gtirns ej cezater
+print(rotateWords("string je retazec")) # gnirts ej cezater
 
-print(rotateWords("string j ret azec")) # gtirns j ter ceza
+print(rotateWords("string j ret azec")) # gnirts j ter ceza
 ```
