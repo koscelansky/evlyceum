@@ -97,16 +97,20 @@ print(s.split('i')) # ['najleps', ' str', 'ng']
 
 ## Úlohy
 
-1. Naprogramujte funkciu, ktorá dostane ako vstup pole a vymaže z neho všetky prvky na párnej pozícii (začíname od `0`).
-2. Naprogramujte funkciu, ktorá pre zadané pole čísel a hodnotu vráti pozíciu hodnoty v poli, prípadne `-1`, ak sa tam nenachádza. 
+1. Naprogramujte funkciu, ktorá dostane ako vstup pole a vymaže z neho kaťdý tretí prvok (začíname od `0`).
+2. Naprogramujte funkciu, ktorá pre zadané pole čísel a hodnotu vráti `True/False` podľa toho či sa tam hodnota nachádza, alebo nie. 
 3. Naprogramujte aplikáciu, ktorá načítava postupne čísla zo vstupu do poľa, skončí ak je zadaná `0` a potom vypíše druhú mocninu všetkých hodnôt v poli. 
 4. Naprogramujte funkciu, ktorá pre zadané pole a hodnotu, vymaže z poľa všetky prvky danej hodnoty. Teda pre `[1, 2, 3, 1, 2]` a hodnotu `2` ostane `[1, 3, 1]`.
 5. Naprogramujte funkciu ako `join`, bez použitia `join`, teda funkcia bude mať dva parametre a to pole stringov a string oddelovač. Pre `['a', 'b', 'c']` a oddelovač `XXX` bude výstup `aXXXbXXXc`. 
 
 ## Domáca úloha (3 body)
 
-Deadline utorok 1. december 2020 (23:59)
+Deadline utorok 28. február 2021 (23:59)
 
-1. Naprogramujte funkciu `pocet`, ktorá pre zadané pole a hodnotu vráti koľkokrát sa daná hodnota v poli nachádza, takže pre `[1, 2, 1, 2, 3, 4, 3, 1, 2]` a hodnotu `2` bude výsledok `3`.
+1. Naprogramujte funkciu `generate_square`, ktorá pre zadané číslo vráti *nové pole*, ktoré bude obsahovať všetko druhé mocniny až po zadané číslo. Takže pre vstup `30` to bude `[1, 4, 9, 16, 25]`. Pre číslo `49` to bude `[1, 4, 9, 16, 25, 36, 49]`
 
-2. Naprogramujte funkciu `parne`, ktorá pre zadané pole, vráti nové pole, ktoré bude ako pôvodné, akurát, že za každým párnym číslom bude vložené číslo 0. Teda pre pole `[0, 1, 2, 3, 2, 2, 5]` bude výsledkom `[0, 0, 1, 2, 0, 3, 2, 0, 2, 0, 5]`. 
+2. Naprogramujte funkciu `parne`, ktorá pre zadané pole, vráti *nové pole*, ktoré bude ako pôvodné, akurát, že za každým párnym číslom bude vložené číslo 0. Teda pre pole `[0, 1, 2, 3, 2, 2, 5]` bude výsledkom `[0, 0, 1, 2, 0, 3, 2, 0, 2, 0, 5]`. 
+
+### Bonus (1 bod)
+
+Naprogramujte funkciu `najcastejsie`, ktorá pre zadané pole vráti hodnotu, ktorá sa v ňom vyskytuje najviac krát. Napríklad pre `[0, 1, 2, 3, 2, 2, 5]` to bude `2`. Pre `[0, 1, 2, 1, 2, 5]` to bude buď `2`, alebo `1`. Ak vám to pomôže, tak môžete predpokladať, že hodnoty v poli sú najviac `100`. 
