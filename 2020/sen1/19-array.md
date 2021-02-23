@@ -105,7 +105,9 @@ print(s.split('i')) # ['najleps', ' str', 'ng']
 
 ## Domáca úloha (3 body)
 
-Deadline utorok 28. február 2021 (23:59)
+Deadline utorková skupina 7. marec (nedeľa) 2021 23:59.
+
+Deadline stredajšia skupina 8. marec (pondelok) 2021 23:59.
 
 1. Naprogramujte funkciu `generate_square`, ktorá pre zadané číslo vráti *nové pole*, ktoré bude obsahovať všetko druhé mocniny až po zadané číslo. Takže pre vstup `30` to bude `[1, 4, 9, 16, 25]`. Pre číslo `49` to bude `[1, 4, 9, 16, 25, 36, 49]`
 
