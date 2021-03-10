@@ -46,3 +46,4 @@
 * [Výstup do súboru (11. 2.)](./2020/sen2/15-out-files.md)
 * [Tajnička (19. 2.)](./2020/sen2/16-sect.md)
 * [Triedenie (25. 2.)](./2020/sen2/17-sort.md)
+* [Parsovanie stringov (11. 3.)](./2020/sen2/18-parse.md)
