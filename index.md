@@ -26,6 +26,7 @@
 * [Reťazce 3 (17. 2.)](./2020/sen1/18-strings4.md)
 * [Polia (23. 2.)](./2020/sen1/19-array.md)
 * [Polia cvičenia (9. 3.)](./2020/sen1/20-arrays2.md)
+* [Eratosthenovo sito (23. 3.)](./2020/sen1/21-sieve.md)
 
 ### Seminár 2 (SEN2)
 
