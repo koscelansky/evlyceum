@@ -48,7 +48,66 @@ Pokračujem ďalej, až prídem na koniec zoznamu a ostanú mi len prvočísla
 
 Znovu si môžeme uvedomiť, že tento postup nám stačí iba po druhú odmocninu z hornej hranice. Z rovnakého dôvodu ako vyššie ak dôjdeme na toto číslo, tak už stačí len pozberať preosiate čísla. 
 
-Implementácia sa väčšinou robí pomocou pola boolov. *TODO pridat sem implementaciu z 31.3.*
+Implementácia sa väčšinou robí pomocou pola boolov. Tu uvádzame tri rôzne implementácie preosievanie čísel. 
+
+```py
+from time import perf_counter
+
+x=int(input("Zadaj cislo"))
+
+def jeprvocislo(x):
+    if x > 1:
+        if x == 2:
+            return True
+        for i in range(2, int(x ** 0.5) + 1):
+            if (x % i) == 0:
+                return False
+
+        return True
+start = perf_counter()
+
+pole = []
+for i in range(x):
+    if jeprvocislo(i):
+        pole.append(i)
+
+print('Elapsed jeprvocislo ', perf_counter() - start)
+
+def sito(n):
+    # vypisat vsetky cisla mensie ako n, ktore su zaroven prvocisla
+    a = [i for i in range(n)]
+    a[0] = None # zahodime 0
+    a[1] = None # zahodime 1
+
+    for i in range(n):
+        if a[i] != None:
+            for j in range(a[i] * 2, len(a), a[i]):
+                a[j] = None
+
+    return [i for i in a if i != None]
+
+def sito2(n):
+    # vypisat vsetky cisla mensie ako n, ktore su zaroven prvocisla
+    a = [True] * n
+    a[0] = False # zahodime 0
+    a[1] = False # zahodime 1
+
+    for i in range(n):
+        if a[i] == True:
+            for j in range(i * 2, len(a), i):
+                a[j] = False
+
+    return [i[0] for i in enumerate(a) if i[1]]
+
+start = perf_counter()
+sito(x)
+print('Elapsed sito ', perf_counter() - start)
+
+start = perf_counter()
+sito2(x)
+print('Elapsed sito2 ', perf_counter() - start)
+
+```
 
 ## Úlohy
 
