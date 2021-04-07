@@ -6,7 +6,7 @@ Na tejto bonusovej hodine si ukážeme základy práce s git-om.
 
 Deadline utorková skupina 12. apríl (pondelok) 2021 23:59.
 
-Deadline stredajšia skupina 14. apríl (utorok) 2021 23:59.
+Deadline stredajšia skupina 13. apríl (utorok) 2021 23:59.
 
 "Vizualizácia" eratostenovho sita. Na minulej hodine sme mali implementáciu. Urobte vizualizáciu algoritmu, tada každý jeden krok (aj s číslom kroku). Na začiatku si vypýtate číslo `n` a potom budete robiť vizualizáciu po toto `n`. 
 
