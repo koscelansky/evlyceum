@@ -27,7 +27,8 @@
 * [Polia (23. 2.)](./2020/sen1/19-array.md)
 * [Polia cvičenia (9. 3.)](./2020/sen1/20-arrays2.md)
 * [Eratosthenovo sito (23. 3., 30. 3.)](./2020/sen1/21-sieve.md)
-* [git (14. 4.)](./2020/sen1/22-git.md)
+* [git (7. 4.)](./2020/sen1/22-git.md)
+* [Canvas (13. 4.)](./2020/sen1/23-canvas.md)
 
 ### Seminár 2 (SEN2)
 
