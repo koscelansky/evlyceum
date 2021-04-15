@@ -156,4 +156,12 @@ root.mainloop()
 
 ## Domáca úloha
 
-TODO
+Naprogramujte grafickú aplikáciu, ktorá do canvasu nakreslí deväť kruhov (teda budú vyplnené farbou) s polomerom 50 bodov na náhodnú pozíciu. Urobte to tak aby bola využitá celá plocha. Vyberte si tri farby, tri kruhy budú prvou farbou, tri druhou a tri poslednou farbou. 
+
+![Domáca úloha, deväť krouhov](23-canvas/du-kruhy.png)
+
+### Bonus (1bod)
+
+Pospájajte kruhy domácej úlohy ako na obrázku čiarov hrúbky 10 bodov a farby akú si vyberiete. 
+
+![Domáca úloha, bonus](23-canvas/du-bonus.png)
