@@ -19,9 +19,8 @@ Napríklad pre číslo 20 bude výstup programu nasledobný. (Hviezdičkami sú 
 4. *1* *2* *3* X 5 X 7 X X X 11 X 13 X X X 17 X 19
 5. *1* *2* *3* X *5* X 7 X X X 11 X 13 X X X 17 X 19
 6. *1* *2* *3* X *5* X *7* X X X 11 X 13 X X X 17 X 19
-7. *1* *2* *3* X *5* X *7* X X X 11 X 13 X X X 17 X 19
-8. *1* *2* *3* X *5* X *7* X X X *11* X 13 X X X 17 X 19
-9. *1* *2* *3* X *5* X 7 X X X *11* X *13* X X X 17 X 19
-10. *1* *2* *3* X *5* X 7 X X X *11* X *13* X X X *17* X 19
-11. *1* *2* *3* X *5* X 7 X X X *11* X *13* X X X *17* X *19*
+7. *1* *2* *3* X *5* X *7* X X X *11* X 13 X X X 17 X 19
+8. *1* *2* *3* X *5* X 7 X X X *11* X *13* X X X 17 X 19
+9. *1* *2* *3* X *5* X 7 X X X *11* X *13* X X X *17* X 19
+10. *1* *2* *3* X *5* X 7 X X X *11* X *13* X X X *17* X *19*
 ```
