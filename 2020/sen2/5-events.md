@@ -152,6 +152,7 @@ root.mainloop()
 Tu sme zavesili event `click` na udalosť kliknutie ľavým tlačítkom myši. Handler má jeden parameter, čo sú parametre udalosti. Tie môžu byť rôzne pre rôzne udalosti, ale väčšina obsahuje pozíciu kurzora v momente keď udalosť nastala (`x` a `y`).
 
 Tu je zoznam najpoužívanejších udalostí:
+
 | Názov              |Popis                                                                      |
 | -------------------|---------------------------------------------------------------------------|
 | `<Button-X>`       |Stlačenie tlačidla myši. X môže byť 1 (lavé), 2 (stredné), 3 (pravé)       |
