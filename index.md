@@ -30,6 +30,7 @@
 * [git (7. 4.)](./2020/sen1/22-git.md)
 * [Canvas (13. 4.)](./2020/sen1/23-canvas.md)
 * [Canvas 2 (20. 4.)](./2020/sen1/24-canvas2.md)
+* [Udalosti (27. 4.)](./2020/sen1/25-events.md)
 
 ### Seminár 2 (SEN2)
 
