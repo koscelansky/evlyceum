@@ -14,9 +14,9 @@ Na dnešnej hodine sme robili, to čo je už popísané v [opakovaní pre SEN2](
 
 ## Domáca úloha
 
-Deadline utorková skupina 25. apríl (nedeľa) 2021 23:59.
+Deadline utorková skupina 23. máj (nedeľa) 2021 23:59.
 
-Deadline stredajšia skupina 26. apríl (pondelok) 2021 23:59.
+Deadline stredajšia skupina 24. máj (pondelok) 2021 23:59.
 
 Naprogramujte aplikáciu, ktorá vykreslí do canvasu dva náhodné zelené obdĺžniky. Po kliknutí myšou sa mi na danej pozícií urobím krúžok veľkosti 5 (polomer). Ak bude mimo oboch obdĺžnikov, tak bude modrý, ak bude patriť do práve jedného tak bude červený a ak do oboch, tak žltý (ako na obrázku). 
 
