@@ -32,6 +32,7 @@
 * [Canvas 2 (20. 4.)](./2020/sen1/24-canvas2.md)
 * [Canvas 3 (27. 4.)](./2020/sen1/25-canvas3.md)
 * [Udalosti (18. 5.)](./2020/sen1/26-events.md)
+* [Udalosti 2 (25. 5.)](./2020/sen1/27-events2.md)
 
 ### Seminár 2 (SEN2)
 
